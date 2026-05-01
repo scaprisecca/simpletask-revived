@@ -24,7 +24,7 @@ You should have received a copy of the GNU General Public License along with Tod
 --><!--suppress ALL --><resources>
     <string name="invalid_context">Nome Lista non valido</string>
     <string name="invalid_project">Nome Etichetta non valido</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="added_task">Aggiunto Task</string>
     <string name="add_task_failed">Non posso aggiungere il Task</string>
     <string name="save_task">Salva Task</string>
@@ -165,10 +165,10 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="about_settings_summary">Informazioni Applicazione</string>
     <string name="visit_website_title">Aiuto</string>
     <string name="visit_website_summary">Visita il sito web di Simpletask</string>
-    <string name="visit_website_data">http://mpcjanssen.nl/pages/simpletask.html</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Richiedi una funzione o segnala un errore</string>
     <string name="visit_tracker_summary">Richiedi una nuova funzione o un miglioramento o segnala un problema.</string>
-    <string name="visit_tracker_data">http://mpcjanssen.nl/redmine/projects/simpletask-android/issues/</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <!-- sync dialog -->
     <string name="sync_dialog_title">Sincronizzazione manuale</string>
     <string name="sync_dialog_msg">Si vuole caricare o scaricare il file todo.txt?</string>
@@ -182,7 +182,7 @@ You should have received a copy of the GNU General Public License along with Tod
         Si vogliono caricare le modifiche locali, a scaricare la versione su Dropbox?
     </string>
     <!-- login -->
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Login in Dropbox</string>
     <string name="login_cloudless">Se non si possiede un account Dropbox oppure non si vuole usare Dropbox,
         è possibile scaricare Simpletask Cloudless dal the Play Store.
@@ -280,13 +280,13 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="dropbox">Dropbox</string>
     <string name="save_filter">Salva il filtro attuale</string>
     <string name="save_filter_message">Inserisci un nome per il filtro attuale da mostrare nel cassetto dei filtri salvati</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Inverti ordine</string>
     <!-- Calendar sync -->
     <!--TODO: translate-->
-    <string name="calendar_disp_name">Simpletask Reminders</string>
-    <string name="calendar_sync_desc_due">Due date reminder, generated automatically by Simpletask</string>
-    <string name="calendar_sync_desc_thre">Threshold date reminder, generated automatically by Simpletask</string>
+    <string name="calendar_disp_name">Simpletask Revived Reminders</string>
+    <string name="calendar_sync_desc_due">Due date reminder, generated automatically by Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Threshold date reminder, generated automatically by Simpletask Revived</string>
     <string name="calendar_exists_warning">Warning: Calendar with the same name already exists, overwriting...</string>
     <string name="calendar_write_error">Error: Could not write calendar</string>
     <string name="click_to_copy">Click to copy to clipboard.</string>

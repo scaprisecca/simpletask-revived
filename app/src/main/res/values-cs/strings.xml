@@ -143,9 +143,9 @@
     <string name="about_settings_summary">Informace o aplikaci</string>
     <string name="visit_website_title">Nápověda</string>
     <string name="visit_website_summary">Navštívit webové stránky projektu</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Požádat o funkci nebo nahlásit chybu</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Zobrazit ladící informace</string>
     <string name="preference_summary_debug_info">Zobrazit a sdílet verzi aplikace a záznam událostí (log).</string>
     <string name="sync_dialog_title">Ruční synchronizace</string>
@@ -237,7 +237,7 @@
     <string name="no_filter">Bez filtru</string>
     <string name="dropbox">Dropbox</string>
     <string name="save_filter">Uložit stávající filtr</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Obrácené pořadí</string>
     <string name="calendar_write_error">Chyba: Nepodařilo se zapsat kalendář</string>
     <string name="click_to_copy">Kliknutím zkopírujte do schránky.</string>

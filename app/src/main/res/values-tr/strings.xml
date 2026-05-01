@@ -117,7 +117,7 @@
     <string name="theme_pref_title">Tema</string>
     <string name="theme_pref_summary">Uygulama temasını değiştir.</string>
     <string name="share_task_show_edit_pref_title">Paylaşılan görevleri düzenle</string>
-    <string name="share_task_show_edit_summary">Kaydetmeden önce Simpletasked görevlerini düzenle</string>
+    <string name="share_task_show_edit_summary">Kaydetmeden önce görevleri Simpletask Revived için düzenle</string>
     <string name="share_task_append_text_title">Arka plan metni</string>
     <string name="share_task_append_text_summary">Arka planda eklenen görevlerin sonuna \"%s\" ekle.</string>
     <string name="local_file_root_title">root:// dizini</string>
@@ -199,10 +199,10 @@
     <string name="about_settings_summary">Uygulama bilgisi</string>
     <string name="visit_website_title">Yardım</string>
     <string name="visit_website_summary">Web sitesini ziyaret edin</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Bir özellik isteyin veya hata bildirin</string>
     <string name="visit_tracker_summary">Yeni bir özellik veya geliştirme isteyin veya sorun bildirin.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Hata ayıklama kaydını görüntüle</string>
     <string name="preference_summary_debug_info">Uygulama sürümünü ve kayıtlarını görüntüleyin ve paylaşın.</string>
     <string name="use_list_and_tags_icons_title">Simgeleri kullan</string>
@@ -218,7 +218,7 @@
 \nYerel değişikliklerinizi yüklemek mi, Dropbox versiyonunu indirmek mi istersiniz\?</string>
     <string name="idle_before_safe_title">Kaydetmeden önceki süre</string>
     <string name="idle_before_safe_summary">Değişiklikler kaydedilmeden önce gereken bekleme süresi (saniye olarak)</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Dropbox\'a giriş yapın</string>
     <string name="login_folder_screen_button">Dropbox\'a giriş yapın
 \n(Uygulama klasörü erişimi)</string>
@@ -325,7 +325,7 @@
     <string name="save_filter">Mevcut filtreyi kaydet</string>
     <string name="save_filter_message">Mevcut filtre için, kaydedilen filtreler çekmecesinde görüntülenecek bir ad girin.</string>
     <string name="filter_import_export">Filtreleri içe/dışa aktar</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Sıralamayı ters çevir</string>
     <string name="calendar_disp_name">Simpletask Hatırlatmalar</string>
     <string name="calendar_sync_desc_due">Simpletask tarafından otomatik olarak oluşturulan son tarih hatırlatması</string>

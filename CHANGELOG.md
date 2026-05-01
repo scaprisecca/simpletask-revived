@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Rebranded the project as Simpletask Revived with distinct application IDs, fork-owned support links, updated in-app help, and repo-local F-Droid metadata scaffolding
+
 ### Added
 - Pinned task notifications can now be scheduled for a specific date and time, survive reboot/app restore, and still resolve the right task even when it lives in another todo file
 - Date lenses for All, Overdue, Today, This Week, and Upcoming are now available from the main task list and quick-filter drawer, with configurable week start and upcoming window settings

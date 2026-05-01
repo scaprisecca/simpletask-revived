@@ -2,7 +2,7 @@
 <resources>
     <string name="invalid_context">Nom de liste invalide</string>
     <string name="invalid_project">Nom de balise invalide</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="added_task">Tâche ajoutée</string>
     <string name="add_task_failed">Impossible d\'ajouter la tâche</string>
     <string name="save_task">Enregistrer la tâche</string>
@@ -201,10 +201,10 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="about_settings_summary">Informations sur l\'application</string>
     <string name="visit_website_title">Aide</string>
     <string name="visit_website_summary">Visiter le site web</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Demander une fonctionnalité ou rapporter un bug</string>
     <string name="visit_tracker_summary">Demander une nouvelle fonctionnalité ou une amélioration ou rapporter un problème.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Voir le journal de débogage</string>
     <string name="preference_summary_debug_info">Voir et partager la version de l\'application et les journaux.</string>
     <string name="sync_dialog_title">Synchronisation manuelle</string>
@@ -216,12 +216,12 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="sync_conflict_dialog_title">Conflit de fichier</string>
     <string name="sync_conflict_dialog_msg">Oups ! Il y a une version plus récente de votre fichier todo.txt dans Dropbox. 
 \nVoulez-vous envoyer vos modifications locales ou télécharger la version de Dropbox \?</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Se connecter à Dropbox</string>
     <string name="login_folder_screen_button">Se connecter à Dropbox
 \n(Accès au dossier de l\'application)</string>
-    <string name="login_cloudless">Si vous n\'avez pas de compte Dropbox ou que vous ne voulez pas l\'utiliser pour stocker votre liste de tâches, vous pouvez télécharger Simpletask Cloudless depuis le Play Store.
-\nhttp://goo.gl/X1C55P</string>
+    <string name="login_cloudless">Si vous n\'avez pas de compte Dropbox ou que vous ne voulez pas l\'utiliser pour stocker votre liste de tâches, utilisez plutôt la version cloudless de Simpletask Revived.
+\nhttps://github.com/scaprisecca/simpletask-android</string>
     <string name="delete_task_title">Supprimer %s tâche(s)</string>
     <string name="archive_task_title">Archiver %s tâche(s)</string>
     <string name="delete_task_message">Cela ne peut pas être annulé. Êtes-vous sûr \?</string>
@@ -317,7 +317,7 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="save_filter">Sauvegarder le filtre courant</string>
     <string name="save_filter_message">Entrer un nom pour le filtre courant, qui sera affiché dans les filtres sauvegardés.</string>
     <string name="filter_import_export">Import / export des filtres</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Inverser le tri</string>
     <string name="calendar_disp_name">Rappels Simpletask</string>
     <string name="calendar_sync_desc_due">Rappel de date d\'échéance, automatiquement généré par Simpletask</string>

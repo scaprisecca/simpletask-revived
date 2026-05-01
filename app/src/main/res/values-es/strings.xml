@@ -44,10 +44,10 @@
     <string name="about_settings_summary">Información de la aplicación</string>
     <string name="visit_website_title">Ayuda</string>
     <string name="visit_website_summary">Ir al sitio web</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Solicitae una característica o informe de un error</string>
     <string name="visit_tracker_summary">Solicitar una característica nueva o mejora o informar de un problema.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <!-- sync dialog -->
     <string name="sync_dialog_title">Sincronización Manual</string>
     <string name="sync_dialog_msg">¿Quiere subir o descargar su archivo todo.txt?</string>
@@ -60,9 +60,9 @@
     <string name="sync_conflict_dialog_msg">¡Vaya! Hay una versión más reciente de su archivo todo.txt en Dropbox.
 \n¿Quiere subir sus cambios locales, o descargar la versión de Dropbox?</string>
     <!-- login -->
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Iniciar sesión en Dropbox</string>
-    <string name="login_cloudless">"Si no tiene una cuenta de Dropbox o no quiere utilizarla para almacenar su lista de tareas, puede descargar Simpletask Cloudless de la Tienda de Aplicaciones de Google.  http://goo.gl/X1C55P"</string>
+    <string name="login_cloudless">"Si no tiene una cuenta de Dropbox o no quiere utilizarla para almacenar su lista de tareas, use la versión cloudless de Simpletask Revived. https://github.com/scaprisecca/simpletask-android"</string>
     <!-- delete -->
     <string name="delete_task_title">Eliminar %s tarea(s)</string>
     <string name="archive_task_title">Archivar %s tarea(s)</string>
@@ -156,7 +156,7 @@ Cualquier cambio que no haya sido sincronizado se perderá después de desconect
     <string name="dropbox">Dropbox</string>
     <string name="save_filter">Guardar filtro</string>
     <string name="save_filter_message">Introduzca un nombre para el filtro:</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Invertir el orden</string>
     <!-- Calendar sync -->
     <string name="calendar_disp_name">Recordatorios de Simpletask</string>
@@ -170,7 +170,7 @@ Cualquier cambio que no haya sido sincronizado se perderá después de desconect
     <!-- Spanish Help localisation -->
     <string name="help_locale">es</string>
     <string name="invalid_project">Nombre de etiqueta no válido</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="invalid_context">Nombre de lista no válido</string>
     <string name="added_task">Tarea agregada</string>
     <string name="add_task_failed">No se pudo agregar la tarea</string>

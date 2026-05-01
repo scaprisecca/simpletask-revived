@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_label" translatable="false">Simpletask WebDAV</string>
+    <string name="app_label" translatable="false">Simpletask Revived WebDAV</string>
     <string name="flavour_settings_label" translatable="false">Webdav</string>
-    <string name="account_type">nl.mpcjanssen.simpletask.webdav</string>
+    <string name="account_type">io.scott.simpletaskrevived.webdav</string>
     <string name="login_unsuccesfull">Login unsuccessfull</string>
     <string name="unexpected_result">Unexpected result</string>
     <string name="webdav_login_screen_button">Log in to Webdav</string>

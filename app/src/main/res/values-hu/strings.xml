@@ -225,11 +225,11 @@
     <string name="about_settings_summary">Alkalmazás információ</string>
     <string name="visit_website_title">Súgó</string>
     <string name="visit_website_summary">A Simpetask weboldala</string>
-    <string name="visit_website_data">http://mpcjanssen.nl/pages/simpletask.html</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
 
     <string name="visit_tracker_title">Javasolj funkciót vagy jelents hibát</string>
     <string name="visit_tracker_summary">Javasolj új funkciót vagy javítást, vagy jelents be hibát.</string>
-    <string name="visit_tracker_data">http://mpcjanssen.nl/redmine/projects/simpletask-android/issues/</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Hibanapló megtekintése</string>
     <string name="preference_summary_debug_info">Az alkalmazás verziójának és naplófájl mutatása, megosztása.</string>
 
@@ -244,7 +244,7 @@
     <string name="sync_conflict_dialog_msg">Hupsz... A Dropboxban a todo.txt fájlodnak egy újabb verziója van meg.
 \nSzeretnéd a helyi fájl változásait feltölteni vagy letöltöd a Dropboxban lévőt?</string>
 
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Belépés Dropboxba</string>
     <string name="login_folder_screen_button">Belépés Dropboxba
 \n(Hozzásférés az alkalmazás könyvtárához)</string>
@@ -366,7 +366,7 @@
 
     <string name="filter_import_export">Szűrők importálása/exportálása</string>
 
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Fordított sorrend</string>
 
     <string name="calendar_disp_name">Simpletask emlékeztetők</string>

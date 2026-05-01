@@ -2,7 +2,7 @@
 <resources>
     <string name="invalid_context">Неверное название списка</string>
     <string name="invalid_project">Неверное название метки</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="added_task">Добавлена задача</string>
     <string name="add_task_failed">Не могу добавить задачу</string>
     <string name="save_task">Сохранить задачу</string>
@@ -233,13 +233,13 @@
     <string name="todotxt_terms_summary">Контекст и проект вместо списка и метки</string>
     <string name="about_settings_header">О программе</string>
     <string name="about_settings_summary">Сведения о приложении</string>
-    <string name="visit_website_data">http://mpcjanssen.nl/pages/simpletask.html</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_summary">Запросить новую функцию, улучшение или сообщить о проблеме.</string>
-    <string name="visit_tracker_data">http://mpcjanssen.nl/redmine/projects/simpletask-android/issues/</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="sync_conflict_dialog_title">Конфликт файлов</string>
     <string name="sync_conflict_dialog_msg">Ой! Существует более новая версия файла todo.txt в Dropbox. 
 \nВы хотите загрузить ваши локальные изменения, или загрузить версию из Dropbox?</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_cloudless">"Если у вас нет учетной записи Dropbox или не хотите использовать его, для хранения списка задач
 Вы можете скачать Simpletask Cloudless из Play Store.
 
@@ -336,6 +336,6 @@ http://goo.gl/X1C55P
     <string name="selected">выбрано</string>
     <string name="no_prio">-</string>
     <string name="keep">сохранять</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="show_filter_drawer">Сохраненные фильтры</string>
 </resources>

@@ -163,10 +163,10 @@
     <string name="about_settings_summary">アプリ情報</string>
     <string name="visit_website_title">ヘルプ</string>
     <string name="visit_website_summary">ウェブサイトを表示します</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">機能のリクエストやバグの記録</string>
     <string name="visit_tracker_summary">新機能や機能の拡張をリクエストしたり、問題を報告します。</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">デバッグ ログの表示</string>
     <string name="preference_summary_debug_info">アプリのバージョンとログを表示し、共有します。</string>
     <string name="sync_dialog_title">手動で同期</string>
@@ -283,7 +283,7 @@
     <string name="save_filter">現在のフィルターを保存</string>
     <string name="save_filter_message">保存済みフィルターのドロワーに表示される、現在のフィルターの名前を入力します。</string>
     <string name="filter_import_export">フィルターのインポート/エクスポート</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">逆順に並べ替え</string>
     <string name="calendar_disp_name">Simpletask リマインダー</string>
     <string name="calendar_sync_desc_due">Simpletask によって自動的に生成される、期限日リマインダー</string>

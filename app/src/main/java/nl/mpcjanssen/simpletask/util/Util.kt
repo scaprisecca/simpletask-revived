@@ -456,7 +456,7 @@ fun alfaSort(
 fun appVersion(ctx: Context): String {
     val packageInfo = ctx.packageManager.getPackageInfo(
             ctx.packageName, 0)
-    return "Simpletask " + BuildConfig.FLAVOR + " v" + packageInfo.versionName + " (" + BuildConfig.VERSION_CODE + ")" + " Git: " + BuildConfig.GIT_VERSION
+    return "Simpletask Revived " + BuildConfig.FLAVOR + " v" + packageInfo.versionName + " (" + BuildConfig.VERSION_CODE + ")" + " Git: " + BuildConfig.GIT_VERSION
 }
 
 fun shortAppVersion(): String {
@@ -534,7 +534,7 @@ fun markdownAssetAsHtml(ctxt: Context, name: String): String {
         }
     }
     // Change issue numbers to links
-    markdown = markdown.replace("(\\s)(#)([0-9]+)".toRegex(), "$1[$2$3](https://github.com/mpcjanssen/simpletask-android/issues/$3)")
+    markdown = markdown.replace("(\\s)(#)([0-9]+)".toRegex(), "$1[$2$3](https://github.com/scaprisecca/simpletask-android/issues/$3)")
     val document = mdParser.parse(markdown)
     val html =
             """

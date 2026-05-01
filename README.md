@@ -1,48 +1,49 @@
-Simpletask
-==========
+Simpletask Revived
+==================
 
-[![CircleCI](https://circleci.com/gh/mpcjanssen/simpletask-android.svg?style=svg)](https://circleci.com/gh/mpcjanssen/simpletask-android)
+Simpletask Revived is a maintained Android fork of Simpletask, built around the [todo.txt](http://todotxt.com) workflow by [Gina Trapani](http://ginatrapani.org/). This fork keeps the familiar task-management model while establishing its own app identity, support path, and release metadata.
 
-Simpletask is a simple task manager for Android, based on the brilliant [todo.txt](http://todotxt.com) format by [Gina Trapani](http://ginatrapani.org/).
+- Documentation: [in-app help source](./app/src/main/assets/index.en.md)
+- Repository: https://github.com/scaprisecca/simpletask-android
+- Issue tracker: https://github.com/scaprisecca/simpletask-android/issues
 
-  * [Documentation](#documentation)
-  * [Translation](#translation)
-  * [Cloudless Version](#cloudless-version)
-  * [Nextcloud Version](#nextcloud-version)
-  * [WebDAV Version](#webdav-version)
-  * [Dropbox](#dropbox)
+## Project status
 
-## Documentation
+This repository is being prepared as a clean fork for renewed maintenance and F-Droid distribution. The first release path is centered on the `cloudless` flavor. Other flavors remain in the source tree, but they are not the primary submission target for the initial revived release.
 
-See documentation [here](./app/src/main/assets/index.en.md).
+## Flavors
 
-## Translation
+### Cloudless
 
-Simpletask is translated using weblate: <a href="https://hosted.weblate.org/engage/simpletask/?utm_source=widget">
-                                        <img src="https://hosted.weblate.org/widgets/simpletask/-/svg-badge.svg" alt="Translation status" />
-                                        </a>
+The cloudless build stores tasks in a local `todo.txt` file on the device. Use this if you sync files with another tool such as Syncthing, or if you want a local-first setup without built-in remote sync.
 
-## Cloudless Version
+Because the task file can live anywhere on the device, this flavor requests broad storage access.
 
-<a href="https://f-droid.org/repository/browse/?fdid=nl.mpcjanssen.simpletask" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
+### Nextcloud
 
+The Nextcloud flavor keeps task files on a Nextcloud-backed todo.txt file.
 
-Cloudless stores tasks in a todo.txt file on the device. A separate app (such as Syncthing) can be used to Sync the file.
+### WebDAV
 
+The WebDAV flavor stores task files on a generic WebDAV server.
 
-Because the todo.txt file could be anywhere on the device to allow sync by a different app, the Cloudless version
-requests full storage access. This is unfortunately the only way to make common use case work while staying sane.
+### Dropbox
 
-### Local development build
+The Dropbox flavor remains in the repository for now, but it is not part of the initial F-Droid path.
 
-Use the repo-local helper script from the project root to build the cloudless flavor after making code changes:
+## F-Droid
+
+F-Droid metadata and listing copy are now tracked in-repo. The revived fork uses distinct application IDs, so do not rely on historical F-Droid package links from the original project.
+
+## Local development build
+
+Use the helper script from the repo root:
 
 ```bash
 ./scripts/build_cloudless.sh
 ```
 
-The script wraps the Gradle build with the Java and Android SDK settings that work for this project and defaults to:
+It defaults to:
 
 ```bash
 ./gradlew assembleCloudlessDebug
@@ -55,7 +56,7 @@ Other common uses:
 ./scripts/build_cloudless.sh assembleCloudlessRelease -- --stacktrace
 ```
 
-If needed, you can override the tool locations for your machine:
+Machine-local overrides:
 
 ```bash
 JAVA11_HOME=/path/to/jdk11 ANDROID_SDK_ROOT=/path/to/android-sdk ./scripts/build_cloudless.sh
@@ -63,22 +64,6 @@ JAVA11_HOME=/path/to/jdk11 ANDROID_SDK_ROOT=/path/to/android-sdk ./scripts/build
 
 If `local.properties` is missing, the script creates it automatically. Do not commit machine-local SDK paths.
 
-## Nextcloud Version
+## Translation
 
-<a href="https://f-droid.org/repository/browse/?fdid=nl.mpcjanssen.simpletask.nextcloud" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
-
-
-Nextcloud stores tasks in a todo.txt file using Nextcloud.
-
-## WebDAV Version
-
-<a href="https://f-droid.org/repository/browse/?fdid=nl.mpcjanssen.simpletask.webdav" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
-
-
-Nextcloud stores tasks in a todo.txt file on any WebDAV server.
-
-## Dropbox
-
-The Dropbox version is not available from F-Droid. You can download builds of the different versions from: https://mpcjanssen.nl/artifacts/
+The repo still contains the original translation set. Translation workflow/tooling can be refreshed for the revived fork later; until then, pull requests improving high-value strings are welcome.

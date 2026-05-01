@@ -151,7 +151,7 @@
     <string name="sync_upload_message">Laster opp todo.txt…</string>
     <string name="sync_download_message">Laster ned todo.txt…</string>
     <string name="sync_conflict_dialog_title">Filkonflikt</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Logg inn på Dropbox</string>
     <string name="login_folder_screen_button">Logg inn på Dropbox
 \n(Programmappetilgang)</string>
@@ -279,8 +279,8 @@
     <string name="show_edittext_hint_summary">Vis hint når du legger til gjøremål.</string>
     <string name="sort_case_sensitive_title">Sorter etter størrelse på forbokstav</string>
     <string name="sort_case_sensitive_summary">Ta hensyn til forbokstavsstørrelse ved sortering av lister, etiketter og lagrede filter.</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_summary_debug_info">Vis og del programversjonen og loggen.</string>
     <string name="clone_tags">Forhåndsutfyll</string>
     <string name="by_due_date">Frist</string>
@@ -303,7 +303,7 @@
     <string name="input_new">Skriv inn ny</string>
     <string name="no_filter">Inget filter</string>
     <string name="save_filter_message">Skriv inn navn på gjeldende filter, for visning i skuffen for lagrede filter.</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="calendar_sync_desc_due">Påminnelse om frist, automatisk generert av Simpletask</string>
     <string name="calendar_sync_desc_thre">Påminnelse om terskel, automatisk generert av Simpletask</string>
     <string name="share_history_title">Gjøremålshistorikk</string>

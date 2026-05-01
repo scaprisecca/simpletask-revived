@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_label" translatable="false">Simpletask Nextcloud</string>
+    <string name="app_label" translatable="false">Simpletask Revived Nextcloud</string>
     <string name="flavour_settings_label" translatable="false">Nextcloud</string>
-    <string name="account_type">nl.mpcjanssen.simpletask.nextcloud</string>
+    <string name="account_type">io.scott.simpletaskrevived.nextcloud</string>
     <string name="login_unsuccesfull">Login unsuccessfull</string>
     <string name="unexpected_result">Unexpected result</string>
     <string name="nextcloud_login_screen_button">Log in to Nextcloud</string>

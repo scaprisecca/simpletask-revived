@@ -1,19 +1,18 @@
-Contributions to Simpletask are appreciated. However to set the expectations:
+Contributions to Simpletask Revived are welcome.
 
-- There is **NO** guarantee that a PR will be merged.
-- There is **NO** guarantee that a PR will be reviewed.
+Before spending significant time on a larger enhancement, open or comment on an issue first so the direction can be discussed early. This is especially important for feature work, architectural changes, sync behavior, and UI changes that affect multiple flavors.
 
-_Making a donation doesn't change the points above._
+Please keep these expectations in mind:
 
-Simpletask is a hobby for me and as such I cannot commit to any amount of time invested.
-I also have strong opinions on what I think Simpletask should look like and where it should move to.
+- Small bug fixes, focused maintenance work, and test improvements are the easiest changes to review and merge.
+- Larger enhancements should start with an issue or short proposal.
+- A pull request may still need iteration before it is accepted.
 
-To prevent wasting a lot of your own time, **DO**:
+Recommended contributor workflow:
 
-- Discuss changes you would like to make in a enhancement issue.
-- Look into open issues to see if there is something which has already been discussed and you could implement
-- Join the gitter channel to discuss any plans you have.
+- Check existing issues before starting.
+- Keep changes focused and flavor-aware.
+- Add or update tests when behavior changes.
+- Note which flavor(s) you exercised when you open the PR.
 
-Or if you find the above nonsense:
-
-- Keep your own fork of Simpletask and merge anything you like :) .
+If you want to carry the project in a different direction, fork it and move quickly there. This repository favors incremental, maintainable changes over broad speculative rewrites.

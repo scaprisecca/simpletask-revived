@@ -6,16 +6,16 @@ Simpletask unterstützt einige Android-Intents, die von anderen Apps (z. B. Task
 Neue Aufgabe im Hintergrund
 ---------------------------
 
-Um eine Aufgabe im Hintergrund zu erstellen, also ohne Simpletask anzuzeigen, kann dieser Intent verwendet werden:
+Um eine Aufgabe im Hintergrund zu erstellen, also ohne Simpletask Revived anzuzeigen, kann dieser Intent verwendet werden:
 
--   Intent action: `nl.mpcjanssen.simpletask.BACKGROUND_TASK`
+-   Intent action: `io.scott.simpletaskrevived.BACKGROUND_TASK`
 -   Intent string extra: `task`
 
 Der Intent übergibt zusätzlich die Zeichenkette `task`, welche die zu erstellende Aufgabe enthält.
 
 Zum Beispiel kann mit Tasker eine neue Aufgabe erstellt werden, indem man folgende Aktion definiert: 
 
--   Action: `nl.mpcjanssen.simpletask.BACKGROUND_TASK`
+-   Action: `io.scott.simpletaskrevived.BACKGROUND_TASK`
 -   Cat: Default
 -   Mime Type: text/\*
 -   Extra: task: `<Aufgabentext mit möglichen Variablen> +tasker`
@@ -26,9 +26,9 @@ Ich füge das `+tasker`-Tag hinzu, um später die von Tasker erstellten Aufgaben
 Öffnen mit aktiviertem Filter
 -----------------------------
 
-Um Simpletask mit einem bestimmten Filter zu öffnen, kann folgender Intent genutzt werden:
+Um Simpletask Revived mit einem bestimmten Filter zu öffnen, kann folgender Intent genutzt werden:
 
--   Intent action: `nl.mpcjanssen.simpletask.START_WITH_FILTER`
+-   Intent action: `io.scott.simpletaskrevived.START_WITH_FILTER`
 -   Intent extras: Die folgenden Extras können als Teil des Intents hinzugefügt werden. Beachten Sie, dass die Namen derzeit noch die ursprüngliche Namensgebung, also Contexts und Projects widerspiegeln.
 
 <table>
@@ -104,7 +104,7 @@ SORTS enthält eine mit Kommas oder '' getrennte Liste von Sortierschlüsseln un
 
 #### Sortierschlüssel
 
-Siehe Liste in [hier](https://github.com/mpcjanssen/simpletask-android/blob/master/app/src/main/res/values/donottranslate.xml#L45-59)
+Siehe Liste in [hier](https://github.com/scaprisecca/simpletask-android/blob/master/app/src/main/res/values/donottranslate.xml#L45-59)
 #### Beispiel
 
 - Die Sortierung `+!completed,+!alphabetical` sortiert abgeschlossene Aufgaben ans Ende und dann alphabetisch.
@@ -112,7 +112,7 @@ Siehe Liste in [hier](https://github.com/mpcjanssen/simpletask-android/blob/mast
 
 ### Beispiel für Tasker
 
--   Action: `nl.mpcjanssen.simpletask.START_WITH_FILTER`
+-   Action: `io.scott.simpletaskrevived.START_WITH_FILTER`
 -   Cat: `Default`
 -   Mime Type:
 -   Extra: `CONTEXTS:Office,Online`
@@ -121,6 +121,6 @@ Siehe Liste in [hier](https://github.com/mpcjanssen/simpletask-android/blob/mast
 
 Aufgrund von Einschränkungen in Tasker können nur bis zu zwei Extras hinzugefügt werden. Stattdessen können Sie den am-shell-Befehl verwenden, also beispielsweise:
 
-    am start -a nl.mpcjanssen.simpletask.START_WITH_FILTER -e SORTS +!completed,+!alphabetical -e PROJECTS project1,project2 -e CONTEXTS @errands,@computer --ez CONTEXTSnot true -c android.intent.category.DEFAULT -S
+    am start -a io.scott.simpletaskrevived.START_WITH_FILTER -e SORTS +!completed,+!alphabetical -e PROJECTS project1,project2 -e CONTEXTS @errands,@computer --ez CONTEXTSnot true -c android.intent.category.DEFAULT -S
 
 Das `-S` am Ende wird sicherstellen, dass die App korrekt neu gestartet wird, wenn sie bereits sichtbar ist. Dagegen scheint das `-S` mit Tasker nicht zu funktionieren.

@@ -164,11 +164,11 @@
     <string name="about_settings_summary">앱 정보</string>
     <string name="visit_website_title">도움말</string>
     <string name="visit_website_summary">웹사이트 방문</string>
-    <string name="visit_website_data">http://mpcjanssen.nl/pages/simpletask.html</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
 
     <string name="visit_tracker_title">기능을 요청하거나 버그 보고</string>
     <string name="visit_tracker_summary">새로운 기능이나 개선 사항을 요청하거나 버그를 보고함</string>
-    <string name="visit_tracker_data">http://mpcjanssen.nl/redmine/projects/simpletask-android/issues/</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
 
     <!-- sync dialog -->
     <string name="sync_dialog_title">수동 동기화</string>
@@ -186,7 +186,7 @@
     <!-- login -->
     <string name="first_title_word">심플태스크</string>
     <string name="login_screen_button">Dropbox에 로그인</string>
-    <string name="login_cloudless">Dropbox 계정이 없거나 일정 목록을 저장할 때 Dropbox를 사용하고 싶지 않다면, Play Store에서 Simpletask Cloudless를 사용하세요. \nhttp://goo.gl/X1C55P
+    <string name="login_cloudless">Dropbox 계정이 없거나 일정 목록을 저장할 때 Dropbox를 사용하고 싶지 않다면, Simpletask Revived의 cloudless 빌드를 사용하세요. \nhttps://github.com/scaprisecca/simpletask-android
     </string>
 
     <!-- delete -->
@@ -297,13 +297,13 @@
     <string name="save_filter">현재 필터 저장</string>
     <string name="save_filter_message">저장된 필터 서랍에 표시될 현재 필터의 새 이름 입력</string>
 
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">정렬 역순</string>
 
     <!-- Calendar sync -->
     <string name="calendar_disp_name">심플태스크 알림</string>
-    <string name="calendar_sync_desc_due">Due date reminder, generated automatically by Simpletask</string>
-    <string name="calendar_sync_desc_thre">Threshold date reminder, generated automatically by Simpletask</string>
+    <string name="calendar_sync_desc_due">Due date reminder, generated automatically by Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Threshold date reminder, generated automatically by Simpletask Revived</string>
     <string name="calendar_exists_warning">경고: 같은 이름의 달력이 이미 존재함, 덮어쓰는중…</string>
     <string name="calendar_write_error">Error: Could not write calendar</string>
 

@@ -56,32 +56,32 @@ android {
     productFlavors {
         dropbox {
             dimension "main"
-            applicationId = "nl.mpcjanssen.todotxtholo"
+            applicationId = "io.scott.simpletaskrevived.dropbox"
             manifestPlaceholders = [providerFlavour: "dropbox"]
         }
         cloudless {
             dimension "main"
-            applicationId = "nl.mpcjanssen.simpletask"
+            applicationId = "io.scott.simpletaskrevived"
             manifestPlaceholders = [providerFlavour: "cloudless"]
         }
         encrypted {
             dimension "main"
-            applicationId = "nl.mpcjanssen.simpletask.encrypted"
+            applicationId = "io.scott.simpletaskrevived.encrypted"
             manifestPlaceholders = [providerFlavour: "encrypted"]
         }
         nextcloud {
             dimension "main"
-            applicationId = "nl.mpcjanssen.simpletask.nextcloud"
+            applicationId = "io.scott.simpletaskrevived.nextcloud"
             manifestPlaceholders = [providerFlavour: "nextcloud"]
         }
 //        dokuwiki {
 //            dimension "main"
-//            applicationId = "nl.mpcjanssen.simpletask.dokuwiki"
+//            applicationId = "io.scott.simpletaskrevived.dokuwiki"
 //            manifestPlaceholders = [providerFlavour: "dokuwiki"]
 //        }
         webdav {
             dimension "main"
-            applicationId = "nl.mpcjanssen.simpletask.webdav"
+            applicationId = "io.scott.simpletaskrevived.webdav"
             manifestPlaceholders = [providerFlavour: "webdav"]
         }
     }

@@ -122,7 +122,7 @@
     <string name="about_settings_header">O aplikácii</string>
     <string name="about_settings_summary">Informácie o aplikácii</string>
     <string name="visit_website_title">Pomocník</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Požiadať o funkciu alebo nahlásiť chybu</string>
     <string name="file_order">Poradie súborov (nezoradené)</string>
     <string name="by_context_todotxt">Kontext</string>
@@ -134,7 +134,7 @@
     <string name="filter_show_completed">Zobraziť hotové úlohy</string>
     <string name="save_filter">Uložiť súčasný filter</string>
     <string name="save_filter_message">Zadajte názov súčasného filtra, ktorý bude zobrazený v zásuvke s uloženými filtrami.</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="log">Záznam udalostí (log)</string>
     <string name="next">Ďalší</string>
     <string name="prev">Predchodzí</string>
@@ -224,7 +224,7 @@
     <string name="todotxt_terms_title">Používať pojmy todo.txt</string>
     <string name="todotxt_terms_summary">Kontext a projekt namiesto zoznamu a štítkov</string>
     <string name="visit_tracker_summary">Požiadať o novú funkci/vylepšenie alebo nahlásiť problém.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Zobraziť informácie pre ladenie</string>
     <string name="preference_summary_debug_info">Zobraziť a zdieľať verziu aplikácie a záznam udalostí (log).</string>
     <string name="sync_dialog_title">Ručná synchronizácia</string>
@@ -236,7 +236,7 @@
     <string name="sync_conflict_dialog_title">Konflikt súboru</string>
     <string name="sync_conflict_dialog_msg">Ups! Na Dropboxe je novšia verzia vášho súboru todo.txt.
 \nChcete nahrať vaše lokálne zmeny alebo si stiahnuť verziu z Dropboxu\?</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Prihlásiť sa na Dropbox</string>
     <string name="login_folder_screen_button">Prihlásiť sa na Dropbox
 \n(prístup do adresára aplikácie)</string>

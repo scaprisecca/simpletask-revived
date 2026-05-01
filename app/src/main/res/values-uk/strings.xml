@@ -2,7 +2,7 @@
 <resources>
     <string name="invalid_context">Невірна назва списку</string>
     <string name="invalid_project">Невірна назва мітки</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="added_task">Додана задача</string>
     <string name="add_task_failed">Не можу додати задачу</string>
     <string name="save_task">Зберегти задачу</string>
@@ -252,10 +252,10 @@
     <string name="show_fast_scroll_summary">Використовувати швидку прокрутку для довших списків завдань</string>
     <string name="visit_tracker_title">Запит функцій чи звіт про ваду</string>
     <string name="visit_tracker_summary">Надішліть запит нової функції або вдосконалення чи звіт про ваду.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_summary_debug_info">Перегляд і надсилання версії застосунку та журналу.</string>
     <string name="use_list_and_tags_icons_summary">Використовувати піктограми для зміни списку та мітки завдань. Вимкніть використання в todo.txt термінів @ і +.</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="delete_task_confirm">Видалити</string>
     <string name="by_prio">Важливість</string>
     <string name="priority_prompt">Важливість</string>
@@ -273,7 +273,7 @@
     <string name="add_to_calendar">Додати нагадування</string>
     <string name="calendar_title">Нагадування Simpletask</string>
     <string name="share_title">Завдання Simpletask</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="hello_world">Привіт, Світе!</string>
     <string name="share_link">Поділитись посиланням</string>
     <string name="about_settings_header">Про застосунок</string>
@@ -336,7 +336,7 @@
     <string name="sync_dialog_download">Завантажити на пристрій</string>
     <string name="preference_title_debug_info">Перегляд журналу зневадження</string>
     <string name="visit_website_title">Довідка</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="about_settings_summary">Відомості про застосунок</string>
     <string name="use_create_as_threshold_title">Дата створення — це гранична дата</string>
     <string name="sort_case_sensitive_title">Сортувати з урахуванням регістру</string>

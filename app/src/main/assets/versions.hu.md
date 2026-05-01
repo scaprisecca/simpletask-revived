@@ -1,27 +1,17 @@
 Verziók
 ========
 
-A Simpletask két verzióban érhető el a Play Áruházban: Simpletask és Simpletask Cloudless. Az alábbiakban áttekintést kaphatsz a kettő közti különbségekről, illetve hogy melyiket érdemes használnod.
+A Simpletask Revived több változatot tart a forráskódban, de az elsődleges kiadási út a cloudless változat.
 
-Mindkét verziót szeretném fejleszteni. A Simpletasket, mert ezt használják többen. A Simpletask Cloudlesst pedig azért, mert én ezt használom.
+Simpletask Revived Cloudless
+----------------------------
 
-Simpletask
-----------
+-   A feladatokat helyi `todo.txt` fájlban tárolja.
+-   Jól működik külső szinkronizáló eszközökkel.
+-   Ez az elsődleges cél a fork első F-Droid kiadásához.
 
--   Ez a verzió támogatja a Dropbox szinkronizációt.
--   A feladatlista az alkalmazásfájlok között van, az alkalmazás törlésekor az is törlődik.
--   Válaszd ezt, ha van Dropbox fiókod és nem szeretnél ennek a beállításával bajlódni.
+Távoli szinkronizációs változatok
+---------------------------------
 
-Simpletask Cloudless
---------------------
-
--   Nincs beépítve szinkronizálási lehetőség. Más szolgáltatások (mint Dropsync vagy Foldersync) segítségével számos felhőmegoldással lehet szinkronizálni.
--   Nem igényel INTERNET hozzáférést, így kompatibilis szigorú adattörvényekkel is.
--   A feladatlisták az SD kártyára kerülnek (alapértelmezetten ide: \`data/nl.mpcjanssen.simpletask\`) így internetkapcsolat nélkül is használhatóak.
--   A LuaConfig újratölti a feladatlistát, ha egy külső program megváltozatja a fájlt.
--   Használd ezt, ha nem Dropboxszal szeretnéd szinkronizálni vagy ha csak offline módban használnád.
-
-Támogatói verzió
----------------
-
-Elérhető volt az áruházban támogatói verzió is, de mivel teljesen ugyanaz volt, mint az ingyenes verzió, macerás volt fenntartani. Ha szeretnél adományozni, a beállításokban találsz linket hozzá.
+-   A Nextcloud és a WebDAV továbbra is a repó része.
+-   Ezeket karbantartjuk, de nem ezek jelentik az első kiadás fő útját.

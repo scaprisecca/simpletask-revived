@@ -2,7 +2,7 @@
 <resources>
     <string name="invalid_context">Ongeldige lijstnaam</string>
     <string name="invalid_project">Ongeldige labelnaam</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="added_task">De taak is toegevoegd</string>
     <string name="add_task_failed">De taak kan niet worden toegevoegd</string>
     <string name="save_task">Taak opslaan</string>
@@ -167,10 +167,10 @@
     <string name="about_settings_summary">App-informatie</string>
     <string name="visit_website_title">Hulp</string>
     <string name="visit_website_summary">Bezoek de website</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Ideeën aandragen of een fout (bug) melden</string>
     <string name="visit_tracker_summary">Draag ideeën of verbeteringen aan of rapporteer een probleem.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Foutopsporingslog weergeven</string>
     <string name="preference_summary_debug_info">Bekijk en deel de appversie en -log.</string>
     <string name="sync_dialog_title">Handmatige synchronisatie</string>
@@ -182,7 +182,7 @@
     <string name="sync_conflict_dialog_title">Bestandsconflict</string>
     <string name="sync_conflict_dialog_msg">Oeps! Er is al een nieuwere versie van uw todo.txt-bestand aanwezig op Dropbox. Wilt u
 \nuw lokaal aangebrachte wijzigingen uploaden of de Dropbox-versie downloaden?</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Inloggen op Dropbox</string>
     <string name="login_folder_screen_button">Inloggen op Dropbox
 (maptoegang voor app)</string>
@@ -291,7 +291,7 @@
     <string name="save_filter">Huidig filter opslaan</string>
     <string name="save_filter_message">Voer een naam in voor het huidige filter; deze wordt weergegeven in de opgeslagen filters-lade.</string>
     <string name="filter_import_export">Filters importeren/exporteren</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Andersom sorteren</string>
     <string name="calendar_disp_name">Simpletask-herinneringen</string>
     <string name="calendar_sync_desc_due">Vervaldatum-herinnering; automatisch gegenereerd door Simpletask</string>

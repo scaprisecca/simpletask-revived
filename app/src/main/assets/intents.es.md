@@ -6,16 +6,16 @@ Simpletask soporta un par de intents que pueden ser utilizados por otras aplicac
 Crear tarea entre bastidores
 ----------------------------
 
-Para crear una tarea en segundo plano, sin mostrar Simpletask,  puede utilizar el intent:
+Para crear una tarea en segundo plano, sin mostrar Simpletask Revived, puede utilizar el intent:
 
--   Intent action: `nl.mpcjanssen.simpletask.BACKGROUND_TASK`
+-   Intent action: `io.scott.simpletaskrevived.BACKGROUND_TASK`
 -   Intent string extra: `task`
 
 El intent tendrá una cadena extra `task` que contiene la tarea a ser añadida.
 
 Por ejemplo para crear una tarea desde Tasker, use la acción siguiente:
 
--   Action: `nl.mpcjanssen.simpletask.BACKGROUND_TASK`
+-   Action: `io.scott.simpletaskrevived.BACKGROUND_TASK`
 -   Cat: Default
 -   Mime Type: text/\*
 -   Extra: task: `<Task text with possible variables here> +tasker`
@@ -26,9 +26,9 @@ Me gusta añadir la etiqueta `+tasker` para posder filtrar rápidamente la tarea
 Abrir con un filtro específico
 ------------------------------
 
-Para abrir Simpletask con un filtro específico puede utilizar el intent:
+Para abrir Simpletask Revived con un filtro específico puede utilizar el intent:
 
--   Intent action: `nl.mpcjanssen.simpletask.START_WITH_FILTER`
+-   Intent action: `io.scott.simpletaskrevived.START_WITH_FILTER`
 -   Intent extras: Los extras siguientes pueden ser añadidos como parte del intent. Note que actualmente los nombres todavía reflejan los nombres originales de listas/etiquetas.
 
 <table>
@@ -104,7 +104,7 @@ SORTS contiene una lista separada por comas o comillas de claves para ordenació
 
 #### Claves para ordenación
 
-Vea la lista [aquí](https://github.com/mpcjanssen/simpletask-android/app/blob/master/src/main/res/values/donottranslate.xml#L45-59)
+Vea la lista [aquí](https://github.com/scaprisecca/simpletask-android/blob/master/app/src/main/res/values/donottranslate.xml#L45-59)
 
 #### Ejemplo
 
@@ -113,7 +113,7 @@ Vea la lista [aquí](https://github.com/mpcjanssen/simpletask-android/app/blob/m
 
 ### Ejemplo de Tasker
 
--   Action: `nl.mpcjanssen.simpletask.START_WITH_FILTER`
+-   Action: `io.scott.simpletaskrevived.START_WITH_FILTER`
 -   Cat: `Default`
 -   Mime Type:
 -   Extra: `CONTEXTS:Officina,Online`
@@ -122,7 +122,7 @@ Vea la lista [aquí](https://github.com/mpcjanssen/simpletask-android/app/blob/m
 
 Debido a limitaciones en Tasker sólo puede añadir 2 extras. Si precisa más puede utilizar el comando shell am. Por ejemplo:
 
-    am start -a nl.mpcjanssen.simpletask.START_WITH_FILTER -e SORTS +!completed,+!alphabetical -e PROJECTS proyecto1,proyecto2 -e CONTEXTS @compras,@ordenador --ez CONTEXTSnot true -c android.intent.category.DEFAULT -S
+    am start -a io.scott.simpletaskrevived.START_WITH_FILTER -e SORTS +!completed,+!alphabetical -e PROJECTS proyecto1,proyecto2 -e CONTEXTS @compras,@ordenador --ez CONTEXTSnot true -c android.intent.category.DEFAULT -S
 
 La `-S` al final asegurará que la aplicación arranca de nuevo correctamente si ya estaba visible. Aun así con Tasker la `-S` parece no funcionar, así que pruebe sin esta opción.
 

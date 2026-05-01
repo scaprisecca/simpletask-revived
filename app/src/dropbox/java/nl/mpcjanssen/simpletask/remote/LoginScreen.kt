@@ -58,7 +58,7 @@ class LoginScreen : ThemedNoActionBarActivity() {
         localBroadcastManager = LocalBroadcastManager.getInstance(this)
 
         val intentFilter = IntentFilter()
-        intentFilter.addAction("nl.mpcjanssen.simpletask.ACTION_LOGIN")
+        intentFilter.addAction(Constants.INTENT_DROPBOX_LOGIN)
         m_broadcastReceiver = object : BroadcastReceiver() {
             override fun onReceive(context: Context, intent: Intent) {
                 val i = Intent(context, Simpletask::class.java)

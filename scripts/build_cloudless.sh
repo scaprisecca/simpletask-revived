@@ -9,7 +9,7 @@ DEFAULT_TASK="assembleCloudlessDebug"
 
 usage() {
   cat <<'EOF'
-Build the Simpletask cloudless/local Android flavor.
+Build the Simpletask Revived cloudless/local Android flavor.
 
 Usage:
   scripts/build_cloudless.sh [gradle-task] [-- extra gradle args]

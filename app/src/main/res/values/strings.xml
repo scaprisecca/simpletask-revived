@@ -163,7 +163,7 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="theme_pref_title">Theme</string>
     <string name="theme_pref_summary">Change app theme.</string>
     <string name="share_task_show_edit_pref_title">Edit shared tasks</string>
-    <string name="share_task_show_edit_summary">Edit Simpletasked tasks prior to saving</string>
+    <string name="share_task_show_edit_summary">Edit shared tasks before saving them to Simpletask Revived</string>
     <string name="share_task_append_text_title">Background text</string>
     <string name="share_task_append_text_summary">Append \"%s\" to tasks added in the background.</string>
     <string name="local_file_root_title">root:// directory</string>
@@ -260,11 +260,11 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="about_settings_header">About</string>
     <string name="about_settings_summary">App information</string>
     <string name="visit_website_title">Help</string>
-    <string name="visit_website_summary">Visit the website</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_summary">Open the project page and documentation</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Request a feature or log a bug</string>
     <string name="visit_tracker_summary">Request a new feature or enhancement or report a problem.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">View debug log</string>
     <string name="preference_summary_debug_info">View and share the app version and log.</string>
     <string name="use_list_and_tags_icons_title">Use icons</string>
@@ -285,12 +285,12 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="idle_before_safe_title">Time before save</string>
     <string name="idle_before_safe_summary">Idle time required before changes are saved (in seconds)</string>
     <!-- login -->
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Log in to Dropbox</string>
     <string name="login_folder_screen_button">Log in to Dropbox\n(App folder access)</string>
     <string name="login_cloudless">If you don\'t have a Dropbox account or don\'t want to use it to store your task list,
-        you can download Simpletask Cloudless from the Play Store.
-        \nhttps://goo.gl/X1C55P
+        use the cloudless Simpletask Revived build instead.
+        \nhttps://github.com/scaprisecca/simpletask-android
     </string>
     <!-- delete -->
     <string name="delete_task_title">Delete %s Task(s)</string>
@@ -364,7 +364,7 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="shortcut_addtask_choose_file">Choose favorite file</string>
     <string name="shortcut_addtask_name_for_file">Add to %1$s</string>
     <!-- share -->
-    <string name="share_addtask_name">Simpletask it</string>
+    <string name="share_addtask_name">Add to Simpletask Revived</string>
     <string name="none">none</string>
     <string name="keep">keep</string>
     <string name="all">all</string>
@@ -392,11 +392,11 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="no_header">None</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Add reminder</string>
-    <string name="calendar_title">Simpletask reminder</string>
-    <string name="share_title">Simpletask task</string>
+    <string name="calendar_title">Simpletask Revived reminder</string>
+    <string name="share_title">Simpletask Revived task</string>
     <string name="version_copied">Version info copied to clipboard</string>
-    <string name="task_added">Task added to Simpletask</string>
-    <string name="link_added">Link added to Simpletask</string>
+    <string name="task_added">Task added to Simpletask Revived</string>
+    <string name="link_added">Link added to Simpletask Revived</string>
     <string name="share_link_failed">Could not add empty link.</string>
     <string name="default_sort">Default sort</string>
     <string name="pull_to_refresh_refreshing_label">Syncing with dropbox…</string>
@@ -406,12 +406,12 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="save_filter">Save current filter</string>
     <string name="save_filter_message">Enter a name for the current filter, to be displayed in the saved filters drawer.</string>
     <string name="filter_import_export">Import/export filters</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Reverse sort</string>
     <!-- Calendar sync -->
-    <string name="calendar_disp_name">Simpletask Reminders</string>
-    <string name="calendar_sync_desc_due">Due date reminder, generated automatically by Simpletask</string>
-    <string name="calendar_sync_desc_thre">Threshold date reminder, generated automatically by Simpletask</string>
+    <string name="calendar_disp_name">Simpletask Revived Reminders</string>
+    <string name="calendar_sync_desc_due">Due date reminder, generated automatically by Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Threshold date reminder, generated automatically by Simpletask Revived</string>
     <string name="calendar_exists_warning">Warning: Calendar with the same name already exists, overwriting…</string>
     <string name="calendar_write_error">Error: Could not write calendar</string>
     <string name="click_to_copy">Click to copy to clipboard.</string>

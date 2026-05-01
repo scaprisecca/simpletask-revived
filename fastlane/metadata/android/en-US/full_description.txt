@@ -1,0 +1,14 @@
+Simpletask Revived is a maintained Android fork of Simpletask for people who want a straightforward todo.txt workflow.
+
+The revived fork keeps the familiar plain-text task model while establishing its own app identity, support path, and release process.
+
+Current release focus:
+- Cloudless local-file workflow
+- todo.txt-compatible task editing
+- Filters, sorting, reminders, widgets, and quick capture
+- Local-first usage with external sync tools if you want them
+
+This fork is being prepared for F-Droid with distinct application IDs and fork-owned support links.
+
+Repository and issue tracker:
+https://github.com/scaprisecca/simpletask-android

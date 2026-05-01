@@ -1,21 +1,21 @@
 Intents
 =======
 
-Simpletask supports a couple of intents which can be used by other applications (e.g. tasker) to create tasks or display lists.
+Simpletask Revived supports a couple of intents which can be used by other applications (e.g. Tasker) to create tasks or display lists.
 
 Create task in background
 -------------------------
 
-To create a task in the background, so without showing simpletask, you can use the intent:
+To create a task in the background, without showing Simpletask Revived, you can use the intent:
 
--   Intent action: `nl.mpcjanssen.simpletask.BACKGROUND_TASK`
+-   Intent action: `io.scott.simpletaskrevived.BACKGROUND_TASK`
 -   Intent string extra: `task`
 
 the intent will have one extra string `task` which contains the task to be added.
 
 For example to create a task from tasker use the following action:
 
--   Action: `nl.mpcjanssen.simpletask.BACKGROUND_TASK`
+-   Action: `io.scott.simpletaskrevived.BACKGROUND_TASK`
 -   Cat: Default
 -   Mime Type: text/\*
 -   Extra: task: `<Task text with possible variables here> +tasker`
@@ -26,9 +26,9 @@ I like to add the `+tasker` tag to be able to quickly filter tasks that were cre
 Open with specific filter
 -------------------------
 
-To open Simpletask with a specific filter you can use the intent:
+To open Simpletask Revived with a specific filter you can use the intent:
 
--   Intent action: `nl.mpcjanssen.simpletask.START_WITH_FILTER`
+-   Intent action: `io.scott.simpletaskrevived.START_WITH_FILTER`
 -   Intent extras: The following extras can be added as part of the intent. Note that currently the names still reflect the original naming of lists/tags.
 
 <table>
@@ -104,7 +104,7 @@ SORTS contains a comma or '' separated list of sort keys and their direction wit
 
 #### Sort keys
 
-See list [here](https://github.com/mpcjanssen/simpletask-android/blob/master/app/src/main/res/values/donottranslate.xml#L45-59)
+See list [here](https://github.com/scaprisecca/simpletask-android/blob/master/app/src/main/res/values/donottranslate.xml#L45-59)
 
 #### Example
 
@@ -113,7 +113,7 @@ See list [here](https://github.com/mpcjanssen/simpletask-android/blob/master/app
 
 ### Tasker example
 
--   Action: `nl.mpcjanssen.simpletask.START_WITH_FILTER`
+-   Action: `io.scott.simpletaskrevived.START_WITH_FILTER`
 -   Cat: `Default`
 -   Mime Type:
 -   Extra: `CONTEXTS:Office,Online`
@@ -122,7 +122,6 @@ See list [here](https://github.com/mpcjanssen/simpletask-android/blob/master/app
 
 Due to limitations in Tasker you can only add 2 extras. So instead you can use the am shell command. For example:
 
-    am start -a nl.mpcjanssen.simpletask.START_WITH_FILTER -e SORTS +!completed,+!alphabetical -e PROJECTS project1,project2 -e CONTEXTS @errands,@computer --ez CONTEXTSnot true -c android.intent.category.DEFAULT -S
+    am start -a io.scott.simpletaskrevived.START_WITH_FILTER -e SORTS +!completed,+!alphabetical -e PROJECTS project1,project2 -e CONTEXTS @errands,@computer --ez CONTEXTSnot true -c android.intent.category.DEFAULT -S
 
 The `-S` at the end will ensure the app is properly restarted if it's already visible. However with tasker the `-S` seems not to work. So there try it without.
-

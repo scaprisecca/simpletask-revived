@@ -2,7 +2,7 @@
 <resources>
     <string name="invalid_context">清单名称无效</string>
     <string name="invalid_project">标签名称无效</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="add_task_failed">无法添加任务</string>
     <string name="save_task">保存任务</string>
     <string name="update_task_failed">无法更新任务</string>
@@ -142,7 +142,7 @@
     <string name="help_locale">en</string>
     <string name="calendar_write_error">错误︰无法写入日历</string>
     <string name="click_to_copy">单击复制到剪贴板。</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">反向排序</string>
     <string name="calendar_disp_name">事务提醒</string>
     <string name="cleartask">清除任务</string>
@@ -202,10 +202,10 @@
     <string name="about_settings_summary">应用信息</string>
     <string name="visit_website_title">帮助</string>
     <string name="visit_website_summary">访问网站</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">请求新功能或报告问题</string>
     <string name="visit_tracker_summary">请求新功能或请求增强功能或报告问题。</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">浏览调试日志</string>
     <string name="preference_summary_debug_info">查看和分享应用版本和日志。</string>
     <string name="sync_dialog_title">手动同步</string>
@@ -221,8 +221,8 @@
     <string name="login_screen_button">登录到 Dropbox</string>
     <string name="login_folder_screen_button">登录到 Dropbox 
 \n（应用程序文件夹访问）</string>
-    <string name="login_cloudless">如果您没有 Dropbox 帐户，或者不想使用它来存储您的任务清单，您可以到 Play Store 下载 Simpletask Cloudless。 
-\nhttps://goo.gl/X1C55P</string>
+    <string name="login_cloudless">如果您没有 Dropbox 帐户，或者不想使用它来存储您的任务清单，请使用 Simpletask Revived 的 cloudless 构建。 
+\nhttps://github.com/scaprisecca/simpletask-android</string>
     <string name="delete_task_title">将删除 %s 条任务</string>
     <string name="archive_task_title">将归档 %s 条任务</string>
     <string name="delete_task_message">这不能撤销。你确定吗？</string>

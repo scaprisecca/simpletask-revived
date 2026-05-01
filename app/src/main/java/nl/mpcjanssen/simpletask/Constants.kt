@@ -49,8 +49,11 @@ object Constants {
     const val SHARE_FILE_NAME = "simpletask.txt"
 
     // Public intents
-    const val INTENT_START_FILTER = "nl.mpcjanssen.simpletask.START_WITH_FILTER"
-    const val INTENT_BACKGROUND_TASK = "nl.mpcjanssen.simpletask.BACKGROUND_TASK"
+    const val INTENT_START_FILTER = "io.scott.simpletaskrevived.START_WITH_FILTER"
+    const val INTENT_BACKGROUND_TASK = "io.scott.simpletaskrevived.BACKGROUND_TASK"
+    const val INTENT_BACKGROUND_LINK = "io.scott.simpletaskrevived.BACKGROUND_LINK"
+    const val INTENT_ADD_TASK_FROM_WIDGET = "io.scott.simpletaskrevived.ADD_TASK_FROM_WIDGET"
+    const val INTENT_DROPBOX_LOGIN = "io.scott.simpletaskrevived.ACTION_LOGIN"
 
     // Intent extras
     const val EXTRA_BACKGROUND_TASK = "task"

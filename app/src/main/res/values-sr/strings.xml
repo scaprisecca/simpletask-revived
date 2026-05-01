@@ -120,7 +120,7 @@
     <string name="no_header">Ништа</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Додај подсетник</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="hello_world">Здраво свете!</string>
     <string name="action_settings">Поставке</string>
     <string name="help_locale">en</string>
@@ -210,10 +210,10 @@
     <string name="about_settings_summary">Информације о апликацији</string>
     <string name="visit_website_title">Помоћ</string>
     <string name="visit_website_summary">Посетите веб сајт</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Затражите нову функционалности или пријавите грешку</string>
     <string name="visit_tracker_summary">Затражите нову функционалности или побољшање или пријавите проблем.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Види дневник за исправљање грешака</string>
     <string name="sync_dialog_title">Ручна синхронизација</string>
     <string name="sync_dialog_upload">Отпреми на Dropbox</string>
@@ -269,7 +269,7 @@
     <string name="todotxt_terms_summary">Контекст и пројекат уместо списка и ознака</string>
     <string name="preference_summary_debug_info">Види и дели верзију апликација и дневник.</string>
     <string name="sync_dialog_msg">Да ли желите да отпремите или скинете Ваш todo.txt фајл?</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_folder_screen_button">Пријава на Dropbox
 \n(приступ апликативној фасцикли)</string>
     <string name="clone_tags">Одмах попуни</string>

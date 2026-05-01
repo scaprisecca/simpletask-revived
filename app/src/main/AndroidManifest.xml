@@ -103,7 +103,7 @@ You should have received a copy of the GNU General Public License along with Sim
             >
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
-                <action android:name="nl.mpcjanssen.simpletask.BACKGROUND_TASK" />
+                <action android:name="io.scott.simpletaskrevived.BACKGROUND_TASK" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <action android:name="com.google.android.gm.action.AUTO_SEND" />
                 <data android:mimeType="*/*" />
@@ -121,7 +121,7 @@ You should have received a copy of the GNU General Public License along with Sim
         >
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
-                <action android:name="nl.mpcjanssen.simpletask.BACKGROUND_LINK" />
+                <action android:name="io.scott.simpletaskrevived.BACKGROUND_LINK" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="*/*" />
             </intent-filter>
@@ -150,7 +150,7 @@ You should have received a copy of the GNU General Public License along with Sim
 
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="nl.mpcjanssen.simpletask.START_WITH_FILTER" />
+                <action android:name="io.scott.simpletaskrevived.START_WITH_FILTER" />
             </intent-filter>
 
             <intent-filter>
@@ -186,7 +186,7 @@ You should have received a copy of the GNU General Public License along with Sim
             </intent-filter>
 
             <intent-filter>
-                <action android:name="nl.mpcjanssen.simpletask.ADD_TASK_FROM_WIDGET" />
+                <action android:name="io.scott.simpletaskrevived.ADD_TASK_FROM_WIDGET" />
             </intent-filter>
 
             <meta-data

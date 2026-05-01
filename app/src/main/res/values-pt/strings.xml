@@ -2,7 +2,7 @@
 <resources>
     <string name="invalid_context">Nome da lista inválido</string>
     <string name="invalid_project">Nome de etiqueta inválido</string>
-    <string name="app_label">Simpletask</string>
+    <string name="app_label">Simpletask Revived</string>
     <string name="added_task">Tarefa adicionada</string>
     <string name="add_task_failed">Impossível adicionar tarefa</string>
     <string name="save_task">Guardar tarefa</string>
@@ -167,10 +167,10 @@
     <string name="about_settings_summary">Informações da aplicação</string>
     <string name="visit_website_title">Ajuda</string>
     <string name="visit_website_summary">Visitar site</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Pedir uma funcionalidade ou reportar um erro</string>
     <string name="visit_tracker_summary">Pedir uma nova funcionalidade ou aperfeiçoamento ou reportar um problema.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Ver registo de depuração</string>
     <string name="preference_summary_debug_info">Ver e partilhar versão da aplicação e registo de erros.</string>
     <!-- sync dialog -->
@@ -185,7 +185,7 @@
     <string name="sync_conflict_dialog_msg">Ups! Há uma nova versão do ficheiro todo.txt no Dropbox. 
 \nPretende enviar o ficheiro local ou descarregar o remoto no Dropbox\?</string>
     <!-- login -->
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Iniciar sessão no Dropbox</string>
     <string name="login_folder_screen_button">Iniciar sessão no Dropbox
 \n(acesso à pasta da aplicação)</string>
@@ -298,7 +298,7 @@
     <string name="save_filter">Guardar filtro atual</string>
     <string name="save_filter_message">Introduzir o nome do filtro atual para ser mostrado no painel de filtros guardados.</string>
     <string name="filter_import_export">Importar/exportar filtros</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Ordenação inversa</string>
     <!-- Calendar sync -->
     <string name="calendar_disp_name">Lembretes do Simpletask</string>

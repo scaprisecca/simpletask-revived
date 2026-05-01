@@ -200,10 +200,10 @@
     <string name="about_settings_summary">Informações do aplicativo</string>
     <string name="visit_website_title">Ajuda</string>
     <string name="visit_website_summary">Visitar site</string>
-    <string name="visit_website_data">https://mpcjanssen.nl/</string>
+    <string name="visit_website_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="visit_tracker_title">Solicite uma função ou relatório de erro</string>
     <string name="visit_tracker_summary">Solicite uma nova função ou aperfeiçoamento ou informe um problema.</string>
-    <string name="visit_tracker_data">https://github.com/mpcjanssen/simpletask-android/issues</string>
+    <string name="visit_tracker_data">https://github.com/scaprisecca/simpletask-android/issues</string>
     <string name="preference_title_debug_info">Ver histórico de depuração</string>
     <string name="preference_summary_debug_info">Ver e compartilhar versão e registro de erros.</string>
     <string name="use_list_and_tags_icons_title">Usar ícones</string>
@@ -217,12 +217,12 @@
     <string name="sync_conflict_dialog_title">Conflito de arquivos</string>
     <string name="sync_conflict_dialog_msg">Opa! Há uma nova versão do arquivo todo.txt no Dropbox. 
 \nPretende carregar o arquivo local ou o remoto\?</string>
-    <string name="first_title_word">Simpletask</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Entrar no Dropbox</string>
     <string name="login_folder_screen_button">Entrar no Dropbox
 \n(Pasta do aplicativo)</string>
-    <string name="login_cloudless">Se não tem conta no Dropbox ou não quer usá-la para armazenar sua lista de tarefas, você pode baixar o Simpletask Cloudless da Play Store. 
-\nhttps://goo.gl/X1C55P</string>
+    <string name="login_cloudless">Se não tem conta no Dropbox ou não quer usá-la para armazenar sua lista de tarefas, use a versão cloudless do Simpletask Revived.
+\nhttps://github.com/scaprisecca/simpletask-android</string>
     <string name="delete_task_title">Apagar %s tarefa(s)</string>
     <string name="archive_task_title">Arquivar %s tarefa(s)</string>
     <string name="delete_task_message">Impossível desfazer. Tem certeza\?</string>
@@ -322,7 +322,7 @@
     <string name="save_filter">Salvar filtro atual</string>
     <string name="save_filter_message">Inserir nome do filtro atual para exibi-lo no painel de filtros salvos.</string>
     <string name="filter_import_export">Importar/exportar filtros</string>
-    <string name="visit_donate_data">https://bitly.com/VYR7Fq</string>
+    <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Organização reversa</string>
     <string name="calendar_disp_name">Lembretes do Simpletask</string>
     <string name="calendar_sync_desc_due">Lembrete de prazo, gerado automaticamente pelo Simpletask</string>
