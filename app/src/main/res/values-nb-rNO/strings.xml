@@ -203,7 +203,7 @@
     <string name="priority_format">(prio)</string>
     <string name="separator">Inndeler</string>
     <string name="shortcut_addtask_name">Legg til gjøremål</string>
-    <string name="share_addtask_name">Legg til i Simpletask</string>
+    <string name="share_addtask_name">Legg til i Simpletask Revived</string>
     <string name="none">ingen</string>
     <string name="keep">behold</string>
     <string name="all">alle</string>
@@ -218,17 +218,17 @@
     <string name="no_project">Ingen etikett</string>
     <string name="no_creation_date">Ingen opprettelsesdato</string>
     <string name="add_to_calendar">Legg til påminnelse</string>
-    <string name="calendar_title">Simpletask-påminnelse</string>
-    <string name="share_title">Simpletask-påminnelse</string>
+    <string name="calendar_title">Simpletask Revived-påminnelse</string>
+    <string name="share_title">Simpletask Revived-påminnelse</string>
     <string name="version_copied">Versjonsinfo kopiert til utklippstavle</string>
-    <string name="task_added">Gjøremål lagt til i Simpletask</string>
+    <string name="task_added">Gjøremål lagt til i Simpletask Revived</string>
     <string name="default_sort">Forvalgt sortering</string>
     <string name="pull_to_refresh_refreshing_label">Synkroniserer med Dropbox…</string>
     <string name="dropbox">Dropbox</string>
     <string name="save_filter">Lagre gjeldende filter</string>
     <string name="filter_import_export">Importer/eksporter filter</string>
     <string name="sort_reverse">Omvendt sortering</string>
-    <string name="calendar_disp_name">Simpletask-påminnelser</string>
+    <string name="calendar_disp_name">Simpletask Revived-påminnelser</string>
     <string name="calendar_write_error">Feil: Kunne ikke skrive kalender</string>
     <string name="click_to_copy">Klikk for å kopiere til utklippstavle.</string>
     <string name="hello_world">Hei verden!</string>
@@ -304,8 +304,8 @@
     <string name="no_filter">Inget filter</string>
     <string name="save_filter_message">Skriv inn navn på gjeldende filter, for visning i skuffen for lagrede filter.</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
-    <string name="calendar_sync_desc_due">Påminnelse om frist, automatisk generert av Simpletask</string>
-    <string name="calendar_sync_desc_thre">Påminnelse om terskel, automatisk generert av Simpletask</string>
+    <string name="calendar_sync_desc_due">Påminnelse om frist, automatisk generert av Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Påminnelse om terskel, automatisk generert av Simpletask Revived</string>
     <string name="share_history_title">Gjøremålshistorikk</string>
     <string name="cancel_changes">Endringer vil gå tapt.</string>
     <string name="calendar_sync_dues_title">Tidsfristpåminnelser</string>
@@ -326,8 +326,6 @@
     <string name="todotxt_terms_summary">Bindeleddsinformasjon og prosjekt istedenfor liste og etikett</string>
     <string name="sync_conflict_dialog_msg">Oida, det er en nyere versjon av din todo.txt-fil i Dropbox.
 \nØnsker du å laste opp dine lokale endringer, eller laste ned Dropbox-versjonen?</string>
-    <string name="login_cloudless">Hvis du ikke har en Dropbox-konto, eller ikke ønsker å bruke den til å lagre oppgavelisten din, kan du laste ned Skyfri Simpletask fra Play-butikken.
-\nhttps://goo.gl/X1C55P</string>
     <string name="logout_message">Forsikre deg om at du har synkronisert alle endringer med Dropbox, eller delt din fullstendige oppgaveliste hvis du ikke er tilkoblet Dropbox.
 \nAlle endringer som ikke har blitt synkroniserte vil gå tapt etter utlogging.</string>
     <string name="dropbox_open">Forsikre deg om at du ha synkronisert alle endringer med Dropbox, eller delt din fullstendige oppgaveliste hvis du ikke er tilkoblet Dropbox.
@@ -349,7 +347,7 @@
     <string name="force_english_title">Påtving engelsk tittel</string>
     <string name="idle_before_safe_title">Tid før lagring</string>
     <string name="idle_before_safe_summary">Uvirksom tid før endriger lagres (i sekunder)</string>
-    <string name="link_added">Lenke lagt til i Simpletask</string>
+    <string name="link_added">Lenke lagt til i Simpletask Revived</string>
     <string name="share_link_failed">Kunne ikke legge til lenke: Lenkeadresse tom</string>
     <string name="share_link">Del lenke</string>
     <string name="show_filter_drawer">Lagrede filtre</string>

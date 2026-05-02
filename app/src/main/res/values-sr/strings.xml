@@ -300,8 +300,8 @@
     <string name="save_filter_message">Унесите име за тренутни филтер, да се приказује у фиоци са сачуваним филтерима.</string>
     <string name="filter_import_export">Увези/извези филтере</string>
     <string name="sort_reverse">Обрни сортирање</string>
-    <string name="calendar_sync_desc_due">Подсетник на крајњи рок, аутоматски генерисан од стране Simpletask-а</string>
-    <string name="calendar_sync_desc_thre">Подсетник на датум окидања, аутоматски генерисан од стране Simpletask-а</string>
+    <string name="calendar_sync_desc_due">Подсетник на крајњи рок, аутоматски генерисан од стране Simpletask Revived-а</string>
+    <string name="calendar_sync_desc_thre">Подсетник на датум окидања, аутоматски генерисан од стране Simpletask Revived-а</string>
     <string name="calendar_write_error">Грешка: не могу да пишем календар</string>
     <string name="click_to_copy">Кликни за копирање у клипборд.</string>
     <string name="share_history_title">Историјат задатака</string>
@@ -324,18 +324,16 @@
     <string name="split_actionbar_pref_summary">Користи подељени траку са радњама, стављајући дугмиће из менија на дно екрана. Искључите ово да бисте приказали дужи списак задатака.</string>
     <string name="sync_conflict_dialog_msg">Упс! У Вашем Dropbox-у се налази новија верзија todo.txt фајла. 
 \nДа ли желите да отпремите локалне измене или да скинете Dropbox верзију?</string>
-    <string name="login_cloudless">Ако немате Dropbox налог или не желите да га користите да складиштите листу Ваших задатака, можете скинути Simpletask Cloudless из Гуглове продавнице. 
-\nhttps://goo.gl/X1C55P</string>
     <string name="logout_message">Уверите се да сте синхронизовали све измене са Dropbox-ом или да сте поделили целокупни списак задатака, ако нисте повезани на Dropbox.
 \n Све измене које нису синхронизоване ће бити изгубљене после одјављивања.</string>
     <string name="dropbox_open">Уверите се да сте синхронизовали све измене са Dropbox-ом или да сте поделили целокупни списак задатака, ако нисте повезани на Dropbox.
 \n Све измене које нису синхронизоване ће бити изгубљене после отварања другог фајла.</string>
     <string name="file_order">Редослед фајлова (несортирано)</string>
-    <string name="share_addtask_name">Simpletask-уј га</string>
-    <string name="calendar_title">Simpletask подсетник</string>
-    <string name="share_title">Simpletask задатак</string>
-    <string name="task_added">Задатак додат у Simpletask</string>
-    <string name="calendar_disp_name">Simpletask подсетници</string>
+    <string name="share_addtask_name">Simpletask Revived-уј га</string>
+    <string name="calendar_title">Simpletask Revived подсетник</string>
+    <string name="share_title">Simpletask Revived задатак</string>
+    <string name="task_added">Задатак додат у Simpletask Revived</string>
+    <string name="calendar_disp_name">Simpletask Revived подсетници</string>
     <string name="calendar_exists_warning">Упозорење: календар са истим именом већ постоји, преписујем…</string>
     <string name="share_history">Погледај и подели интерну todo.txt базу историјата измена за опоравак.</string>
     <string name="back_clears_filter_title">Дугме \"Назад\" чисти филтере</string>
@@ -349,7 +347,7 @@
     <string name="force_english_title">Форсирај енглески</string>
     <string name="idle_before_safe_title">Време пре снимања</string>
     <string name="idle_before_safe_summary">Време мировања потребно да прође пре него што се промене сачувају (у секундама)</string>
-    <string name="link_added">Веза додата у Simpletask</string>
+    <string name="link_added">Веза додата у Simpletask Revived</string>
     <string name="share_link_failed">Не могу да додам празну везу.</string>
     <string name="share_link">Подели везу</string>
 </resources>

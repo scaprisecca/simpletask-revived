@@ -189,8 +189,6 @@
     <string name="login_screen_button">Iniciar sessão no Dropbox</string>
     <string name="login_folder_screen_button">Iniciar sessão no Dropbox
 \n(acesso à pasta da aplicação)</string>
-    <string name="login_cloudless">Se não tem conta no Dropbox ou não quer usá-la para armazenar a sua lista de tarefas, pode descarregar o Simpletask Cloudless da Play Store. 
-\nhttps://goo.gl/X1C55P</string>
     <!-- delete -->
     <string name="delete_task_title">Eliminar %s tarefa(s)</string>
     <string name="archive_task_title">Arquivar %s tarefa(s)</string>
@@ -258,7 +256,7 @@
     <!-- launcher shortcut -->
     <string name="shortcut_addtask_name">Adicionar tarefa</string>
     <!-- share -->
-    <string name="share_addtask_name">Adicionar ao Simpletask</string>
+    <string name="share_addtask_name">Adicionar ao Simpletask Revived</string>
     <string name="none">nenhum</string>
     <string name="keep">manter</string>
     <string name="all">tudo</string>
@@ -286,10 +284,10 @@
     <string name="no_header">Nenhum</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Adicionar lembrete</string>
-    <string name="calendar_title">Lembrete do Simpletask</string>
-    <string name="share_title">Tarefa Simpletask</string>
+    <string name="calendar_title">Lembrete do Simpletask Revived</string>
+    <string name="share_title">Tarefa Simpletask Revived</string>
     <string name="version_copied">Informações de versão copiadas</string>
-    <string name="task_added">Tarefa adicionada ao Simpletask</string>
+    <string name="task_added">Tarefa adicionada ao Simpletask Revived</string>
     <string name="default_sort">Ordenação predefinida</string>
     <string name="pull_to_refresh_refreshing_label">Sincronizando com o Dropbox…</string>
     <string name="input_new">Inserir nova</string>
@@ -301,9 +299,9 @@
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Ordenação inversa</string>
     <!-- Calendar sync -->
-    <string name="calendar_disp_name">Lembretes do Simpletask</string>
-    <string name="calendar_sync_desc_due">Lembrete de prazo, gerado automaticamente pelo Simpletask</string>
-    <string name="calendar_sync_desc_thre">Lembrete de data limiar, gerado automaticamente pelo Simpletask</string>
+    <string name="calendar_disp_name">Lembretes do Simpletask Revived</string>
+    <string name="calendar_sync_desc_due">Lembrete de prazo, gerado automaticamente pelo Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Lembrete de data limiar, gerado automaticamente pelo Simpletask Revived</string>
     <string name="calendar_exists_warning">Aviso: calendário com mesmo nome, gravando por cima…</string>
     <string name="calendar_write_error">Erro: impossível gravar no calendário</string>
     <string name="click_to_copy">Toque para copiar para a área de transferência.</string>

@@ -240,8 +240,6 @@
     <string name="login_screen_button">Prihlásiť sa na Dropbox</string>
     <string name="login_folder_screen_button">Prihlásiť sa na Dropbox
 \n(prístup do adresára aplikácie)</string>
-    <string name="login_cloudless">Ak nemáte účet na Dropboxe alebo ho nechcete používat pre ukladanie vašich zoznamov úloh, môžete si stiahnuť SImpletask Cloudless z obchodu Play.
-\nhttps://goo.gl/X1C55P</string>
     <string name="delete_task_title">Odstrániť %s úloh(u)</string>
     <string name="archive_task_title">Archivovať %s úloh(u)</string>
     <string name="delete_task_message">Túto akciu nie je možné odvolať. Naozaj to chcete urobiť\?</string>
@@ -280,7 +278,7 @@
     <string name="priority_format">(prio)</string>
     <string name="separator">Oddeľovač</string>
     <string name="shortcut_addtask_name">Pridať úlohu</string>
-    <string name="share_addtask_name">Použiť na to Simpletask</string>
+    <string name="share_addtask_name">Použiť na to Simpletask Revived</string>
     <string name="none">žiadne</string>
     <string name="keep">ponechať</string>
     <string name="all">všetko</string>
@@ -303,19 +301,19 @@
     <string name="no_header">Žiaden</string>
     <string name="no_prio">–</string>
     <string name="add_to_calendar">Pridať pripomienku</string>
-    <string name="calendar_title">Pripomienka Simpletask</string>
-    <string name="share_title">Úloha zo Simpletask</string>
+    <string name="calendar_title">Pripomienka Simpletask Revived</string>
+    <string name="share_title">Úloha zo Simpletask Revived</string>
     <string name="version_copied">Informácia o verzii skopírovaná do schránky</string>
-    <string name="task_added">Úloha pridaná do Simpletask</string>
+    <string name="task_added">Úloha pridaná do Simpletask Revived</string>
     <string name="default_sort">Predvolené triedenie</string>
     <string name="pull_to_refresh_refreshing_label">Synchronizuje sa s Dropboxom…</string>
     <string name="input_new">Zadať nový</string>
     <string name="no_filter">Bez filtra</string>
     <string name="filter_import_export">Importovať/exportovať filtre</string>
     <string name="sort_reverse">Otočené poradie triedenia</string>
-    <string name="calendar_disp_name">Pripomienky Simpletask</string>
-    <string name="calendar_sync_desc_due">Pripomienka termínu, automaticky vytvorená aplikáciou Simpletask</string>
-    <string name="calendar_sync_desc_thre">Pripomienka hraničného dátumu, automaticky vytvorená aplikáciou Simpletask</string>
+    <string name="calendar_disp_name">Pripomienky Simpletask Revived</string>
+    <string name="calendar_sync_desc_due">Pripomienka termínu, automaticky vytvorená aplikáciou Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Pripomienka hraničného dátumu, automaticky vytvorená aplikáciou Simpletask Revived</string>
     <string name="calendar_exists_warning">Varovanie: kalendár s takýmto menom už existuje, prepisuje sa…</string>
     <string name="calendar_write_error">Chyba: Nepodarilo sa zapísať kalendár</string>
     <string name="click_to_copy">Kliknutím skopírujete do schránky.</string>
@@ -349,7 +347,7 @@
     <string name="force_english_title">Vynútiť angličtinu</string>
     <string name="idle_before_safe_title">Čas do uloženia</string>
     <string name="idle_before_safe_summary">Čas neaktivity (v sekundách), po uplynutí ktorého sa zapíšu zmeny</string>
-    <string name="link_added">Odkaz pridaný do Simpletask</string>
+    <string name="link_added">Odkaz pridaný do Simpletask Revived</string>
     <string name="share_link_failed">Nepodarilo sa pridať prázdny odkaz.</string>
     <string name="share_link">Zdieľať odkaz</string>
 </resources>

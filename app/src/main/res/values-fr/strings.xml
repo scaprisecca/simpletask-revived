@@ -279,7 +279,7 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="priority_format">(priorité)</string>
     <string name="separator">Séparateur</string>
     <string name="shortcut_addtask_name">Ajouter une tâche</string>
-    <string name="share_addtask_name">Ajouter à Simpletask</string>
+    <string name="share_addtask_name">Ajouter à Simpletask Revived</string>
     <string name="none">aucun</string>
     <string name="keep">conserver</string>
     <string name="all">tout</string>
@@ -306,10 +306,10 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="no_header">Aucun</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Ajouter un rappel</string>
-    <string name="calendar_title">Rappel Simpletask</string>
-    <string name="share_title">tâche Simpletask</string>
+    <string name="calendar_title">Rappel Simpletask Revived</string>
+    <string name="share_title">tâche Simpletask Revived</string>
     <string name="version_copied">Informations de version copiées dans le presse-papiers</string>
-    <string name="task_added">Tâche ajoutée à Simpletask</string>
+    <string name="task_added">Tâche ajoutée à Simpletask Revived</string>
     <string name="default_sort">Tri par défaut</string>
     <string name="pull_to_refresh_refreshing_label">Synchronisation avec Dropbox…</string>
     <string name="no_filter">Aucun filtre</string>
@@ -319,9 +319,9 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="filter_import_export">Import / export des filtres</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Inverser le tri</string>
-    <string name="calendar_disp_name">Rappels Simpletask</string>
-    <string name="calendar_sync_desc_due">Rappel de date d\'échéance, automatiquement généré par Simpletask</string>
-    <string name="calendar_sync_desc_thre">Rappel de date limite, généré automatiquement par Simpletask</string>
+    <string name="calendar_disp_name">Rappels Simpletask Revived</string>
+    <string name="calendar_sync_desc_due">Rappel de date d\'échéance, automatiquement généré par Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Rappel de date limite, généré automatiquement par Simpletask Revived</string>
     <string name="calendar_exists_warning">Attention : un calendrier avec le même nom existe déjà, écrasement…</string>
     <string name="calendar_write_error">Erreur : impossible d\'écrire dans le calendrier</string>
     <string name="click_to_copy">Cliquer pour copier dans le presse-papiers.</string>
@@ -362,7 +362,7 @@ Décochez cette option pour définir les nouvelles dates par rapport à aujourd\
     <string name="use_list_and_tags_icons_summary">Utiliser des icônes pour modifier la liste et l\'étiquette de la tâche. Désactiver pour utiliser les termes todo.txt @ et +.</string>
     <string name="no_tasks_to_archive">Aucune tâche à archiver.</string>
     <string name="force_english_title">Forcer l\'usage de l\'anglais</string>
-    <string name="link_added">Lien ajouté à Simpletask</string>
+    <string name="link_added">Lien ajouté à Simpletask Revived</string>
     <string name="share_link">Lien de partage</string>
     <string name="share_link_failed">Impossible d\'ajouter un lien vide.</string>
     <string name="idle_before_safe_summary">Temps d\'inactivité nécessaire avant que les modifications soient enregistrées (en secondes)</string>

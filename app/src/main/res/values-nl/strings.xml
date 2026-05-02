@@ -186,9 +186,6 @@
     <string name="login_screen_button">Inloggen op Dropbox</string>
     <string name="login_folder_screen_button">Inloggen op Dropbox
 (maptoegang voor app)</string>
-    <string name="login_cloudless">Als u geen Dropbox-account heeft of u wilt Dropbox niet gebruiken om uw takenlijst naar op te slaan, dan kunt u Simpletask Cloudless downloaden uit de Play Store. 
-\n 
-\nhttps://goo.gl/X1C55P</string>
     <string name="delete_task_title">%s ta(a)k(en) verwijderen</string>
     <string name="archive_task_title">%s ta(a)k(en) acrhiveren</string>
     <string name="delete_task_message">Dit kan niet ongedaan worden gemaakt. Weet u het zeker?</string>
@@ -252,7 +249,7 @@
     <string name="priority_format">(prio)</string>
     <string name="separator">Scheidingsteken</string>
     <string name="shortcut_addtask_name">Taak toevoegen</string>
-    <string name="share_addtask_name">Simpletask het</string>
+    <string name="share_addtask_name">Simpletask Revived het</string>
     <string name="none">geen</string>
     <string name="keep">behouden</string>
     <string name="all">alles</string>
@@ -279,10 +276,10 @@
     <string name="no_header">Geen</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Herinnering toevoegen</string>
-    <string name="calendar_title">Simpletask-herinnering</string>
-    <string name="share_title">Simpletask-taak</string>
+    <string name="calendar_title">Simpletask Revived-herinnering</string>
+    <string name="share_title">Simpletask Revived-taak</string>
     <string name="version_copied">Versie-informatie is gekopieerd naar het klembord</string>
-    <string name="task_added">Taak is toegevoegd aan Simpletask</string>
+    <string name="task_added">Taak is toegevoegd aan Simpletask Revived</string>
     <string name="default_sort">Standaard sortering</string>
     <string name="pull_to_refresh_refreshing_label">Bezig met synchroniseren met Dropbox…</string>
     <string name="input_new">Nieuwe invoer</string>
@@ -293,9 +290,9 @@
     <string name="filter_import_export">Filters importeren/exporteren</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Andersom sorteren</string>
-    <string name="calendar_disp_name">Simpletask-herinneringen</string>
-    <string name="calendar_sync_desc_due">Vervaldatum-herinnering; automatisch gegenereerd door Simpletask</string>
-    <string name="calendar_sync_desc_thre">Drempeldatum-herinnering; automatisch gegenereerd door Simpletask</string>
+    <string name="calendar_disp_name">Simpletask Revived-herinneringen</string>
+    <string name="calendar_sync_desc_due">Vervaldatum-herinnering; automatisch gegenereerd door Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Drempeldatum-herinnering; automatisch gegenereerd door Simpletask Revived</string>
     <string name="calendar_exists_warning">Waarschuwing: er bestaat al een kalender met deze naam. Bezig met overschrijven…</string>
     <string name="calendar_write_error">Fout: het schrijven van de kalender is mislukt</string>
     <string name="click_to_copy">Druk om te kopiëren naar het klembord.</string>

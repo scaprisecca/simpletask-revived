@@ -222,8 +222,6 @@
     <string name="login_screen_button">Dropbox\'a giriş yapın</string>
     <string name="login_folder_screen_button">Dropbox\'a giriş yapın
 \n(Uygulama klasörü erişimi)</string>
-    <string name="login_cloudless">Bir Dropbox hesabınız yoksa veya görev listenizi saklamak için kullanmak istemiyorsanız, Google Play Store\'dan Simpletask Cloudless uygulamasını indirebilirsiniz.
-\nhttps://goo.gl/X1C55P</string>
     <string name="delete_task_title">%s Görevi Sil</string>
     <string name="archive_task_title">%s Görevi Arşivle</string>
     <string name="delete_task_message">Bu geri alınamaz. Emin misiniz\?</string>
@@ -284,7 +282,7 @@
     <string name="priority_format">(önce)</string>
     <string name="separator">Ayırıcı</string>
     <string name="shortcut_addtask_name">Görev Ekle</string>
-    <string name="share_addtask_name">Simpletask yap</string>
+    <string name="share_addtask_name">Simpletask Revived yap</string>
     <string name="none">yok</string>
     <string name="keep">tut</string>
     <string name="all">hepsi</string>
@@ -311,11 +309,11 @@
     <string name="no_header">Yok</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Hatırlatma ekle</string>
-    <string name="calendar_title">Simpletask hatırlatma</string>
-    <string name="share_title">Simpletask görev</string>
+    <string name="calendar_title">Simpletask Revived hatırlatma</string>
+    <string name="share_title">Simpletask Revived görev</string>
     <string name="version_copied">Versiyon bilgisi panoya kopyalandı</string>
-    <string name="task_added">Görev Simpletask\'e eklendi</string>
-    <string name="link_added">Link Simpletask\'e eklendi</string>
+    <string name="task_added">Görev Simpletask Revived\'e eklendi</string>
+    <string name="link_added">Link Simpletask Revived\'e eklendi</string>
     <string name="share_link_failed">Boş link eklenemedi.</string>
     <string name="default_sort">Varsayılan sıralama</string>
     <string name="pull_to_refresh_refreshing_label">Dropbox ile senkronize ediliyor…</string>
@@ -327,9 +325,9 @@
     <string name="filter_import_export">Filtreleri içe/dışa aktar</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Sıralamayı ters çevir</string>
-    <string name="calendar_disp_name">Simpletask Hatırlatmalar</string>
-    <string name="calendar_sync_desc_due">Simpletask tarafından otomatik olarak oluşturulan son tarih hatırlatması</string>
-    <string name="calendar_sync_desc_thre">Simpletask tarafından otomatik olarak oluşturulan eşik tarihi hatırlatması</string>
+    <string name="calendar_disp_name">Simpletask Revived Hatırlatmalar</string>
+    <string name="calendar_sync_desc_due">Simpletask Revived tarafından otomatik olarak oluşturulan son tarih hatırlatması</string>
+    <string name="calendar_sync_desc_thre">Simpletask Revived tarafından otomatik olarak oluşturulan eşik tarihi hatırlatması</string>
     <string name="calendar_exists_warning">Uyarı: Aynı isimde olan bir takvim zaten var, üzerine yazılıyor…</string>
     <string name="calendar_write_error">Hata: Takvim yazılamadı</string>
     <string name="click_to_copy">Panoya kopyalamak için tıklayın.</string>

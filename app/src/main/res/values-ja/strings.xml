@@ -177,14 +177,10 @@
     <string name="sync_download_message">todo.txt をダウンロードしています…</string>
     <string name="sync_conflict_dialog_title">ファイルの競合</string>
     <string name="sync_conflict_dialog_msg">おっと！ Dropbox に、新しいバージョンの todo.txt ファイルがあります。 ローカルの変更をアップロードしますか、それとも Dropboxにあるものをダウンロードしますか?</string>
-    <string name="first_title_word">シンプルタスク</string>
+    <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Dropbox にログイン</string>
     <string name="login_folder_screen_button">Dropbox にログイン
 (アプリ フォルダー アクセス)</string>
-    <string name="login_cloudless">"Dropbox のアカウントを持っていないか、タスクリストの保存にそれを使用したくない場合、Play ストアから Simpletask Cloudless をダウンロードすることができます。
-\n 
-\nhttp://goo.gl/X1C55P
-\n "</string>
     <string name="delete_task_title">%s タスクを削除</string>
     <string name="archive_task_title">%s タスクをアーカイブ</string>
     <string name="delete_task_message">これは元に戻すことができません。よろしいですか?</string>
@@ -244,7 +240,7 @@
     <string name="priority_format">(優先)</string>
     <string name="separator">区切り</string>
     <string name="shortcut_addtask_name">タスクを追加</string>
-    <string name="share_addtask_name">Simpletask に追加</string>
+    <string name="share_addtask_name">Simpletask Revived に追加</string>
     <string name="none">なし</string>
     <string name="keep">保持</string>
     <string name="all">すべて</string>
@@ -271,10 +267,10 @@
     <string name="no_header">なし</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">リマインダーを追加</string>
-    <string name="calendar_title">Simpletask リマインダー</string>
-    <string name="share_title">Simpletask タスク</string>
+    <string name="calendar_title">Simpletask Revived リマインダー</string>
+    <string name="share_title">Simpletask Revived タスク</string>
     <string name="version_copied">バージョン情報をクリップボードにコピーしました</string>
-    <string name="task_added">タスクを Simpletask に追加しました</string>
+    <string name="task_added">タスクを Simpletask Revived に追加しました</string>
     <string name="default_sort">デフォルトの並べ替え</string>
     <string name="pull_to_refresh_refreshing_label">Dropbox と同期しています…</string>
     <string name="input_new">新しく入力</string>
@@ -285,9 +281,9 @@
     <string name="filter_import_export">フィルターのインポート/エクスポート</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">逆順に並べ替え</string>
-    <string name="calendar_disp_name">Simpletask リマインダー</string>
-    <string name="calendar_sync_desc_due">Simpletask によって自動的に生成される、期限日リマインダー</string>
-    <string name="calendar_sync_desc_thre">Simpletask によって自動的に生成される、期日リマインダー</string>
+    <string name="calendar_disp_name">Simpletask Revived リマインダー</string>
+    <string name="calendar_sync_desc_due">Simpletask Revived によって自動的に生成される、期限日リマインダー</string>
+    <string name="calendar_sync_desc_thre">Simpletask Revived によって自動的に生成される、期日リマインダー</string>
     <string name="calendar_exists_warning">警告: 同じ名前のカレンダーが既に存在します。上書きします…</string>
     <string name="calendar_write_error">エラー: カレンダーを書き込めませんでした</string>
     <string name="click_to_copy">クリックしてクリップボードにコピーします。</string>
@@ -352,7 +348,7 @@
     <string name="force_english_title">強制的に英語を使用する</string>
     <string name="idle_before_safe_title">保存するまでの時間</string>
     <string name="idle_before_safe_summary">変更が保存されるまでのアイドル時間 (秒)</string>
-    <string name="link_added">Simpletask にリンクが追加されました</string>
+    <string name="link_added">Simpletask Revived にリンクが追加されました</string>
     <string name="share_link_failed">空のリンクは追加できません。</string>
     <string name="share_link">リンクの共有</string>
 </resources>

@@ -184,10 +184,6 @@ You should have received a copy of the GNU General Public License along with Tod
     <!-- login -->
     <string name="first_title_word">Simpletask Revived</string>
     <string name="login_screen_button">Login in Dropbox</string>
-    <string name="login_cloudless">Se non si possiede un account Dropbox oppure non si vuole usare Dropbox,
-        è possibile scaricare Simpletask Cloudless dal the Play Store.
-        \nhttp://goo.gl/X1C55P
-    </string>
     <!-- delete -->
     <string name="delete_task_title">Cancella Task</string>
     <string name="archive_task_title">Archivia Task</string>
@@ -244,7 +240,7 @@ You should have received a copy of the GNU General Public License along with Tod
     <!-- launcher shortcut -->
     <string name="shortcut_addtask_name">Aggiungi Task</string>
     <!-- share -->
-    <string name="share_addtask_name">Aggiungi a Simpletask</string>
+    <string name="share_addtask_name">Aggiungi a Simpletask Revived</string>
     <string name="none">nessuno</string>
     <!-- Relative Dates -->
     <string name="dates_days_ago">%d giorni fa</string>
@@ -270,10 +266,10 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="no_header">Nessuna</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Aggiungi promemoria</string>
-    <string name="calendar_title">Promemoria Simpletask</string>
-    <string name="share_title">Simpletask Task</string>
+    <string name="calendar_title">Promemoria Simpletask Revived</string>
+    <string name="share_title">Simpletask Revived Task</string>
     <string name="version_copied">Info Versione copiata su clipboard</string>
-    <string name="task_added">Task aggiunto a Simpletask</string>
+    <string name="task_added">Task aggiunto a Simpletask Revived</string>
     <string name="default_sort">Ordine di default</string>
     <string name="pull_to_refresh_refreshing_label">Sincronizzo con dropbox…</string>
     <string name="no_filter">Nessun filtro</string>

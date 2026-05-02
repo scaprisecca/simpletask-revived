@@ -27,10 +27,10 @@ Simpletask Revived currently ships with the existing translation set from the or
 If you want to log an issue or feature request for [Simpletask Revived](https://github.com/scaprisecca/simpletask-android/) you can go to [the tracker](https://github.com/scaprisecca/simpletask-android/issues).
 
 
-Community
----------
+Support status
+--------------
 
-Join the chat on IRC at [#simpletask on Libera Chat](https://web.libera.chat), or Matrix at [#simpletask:matrix.org](https://matrix.to/#/#simpletask:matrix.org).
+Support for the revived fork is handled through the GitHub repository and issue tracker for now.
 
 
 Check the menu for more help sections or click below.

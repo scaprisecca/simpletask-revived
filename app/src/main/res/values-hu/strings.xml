@@ -248,8 +248,6 @@
     <string name="login_screen_button">Belépés Dropboxba</string>
     <string name="login_folder_screen_button">Belépés Dropboxba
 \n(Hozzásférés az alkalmazás könyvtárához)</string>
-    <string name="login_cloudless">Ha nincs Dropbox-fiókod vagy nem szeretnéd használni a feladatlistád tárolására, letöltheted a Simpletask Cloudless appot a Play Áruházból.
-\nhttp://goo.gl/X1C55P</string>
 
     <string name="delete_task_title">%s feladat törlése</string>
     <string name="archive_task_title">%s feladat archiválása</string>
@@ -318,7 +316,7 @@
     <string name="separator">Elválasztó</string>
 
     <string name="shortcut_addtask_name">Feladat hozzáadása</string>
-    <string name="share_addtask_name">Simpletaskhez adás</string>
+    <string name="share_addtask_name">Simpletask Revivedhez adás</string>
 
     <string name="none">semmi</string>
     <string name="keep">megtart</string>
@@ -350,11 +348,11 @@
     <string name="no_header">Semmi</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Emlékeztető hozzáadása</string>
-    <string name="calendar_title">Simpletask emlékeztető</string>
-    <string name="share_title">Simpletask feladat</string>
+    <string name="calendar_title">Simpletask Revived emlékeztető</string>
+    <string name="share_title">Simpletask Revived feladat</string>
     <string name="version_copied">Verzióinfó a vágólapra másolva</string>
 
-    <string name="task_added">Feladat hozzáadva Simpletaskhez</string>
+    <string name="task_added">Feladat hozzáadva Simpletask Revivedhez</string>
     <string name="default_sort">Alapértelmezett rendezés</string>
     <string name="pull_to_refresh_refreshing_label">Dropbox szinkronizálás…</string>
     <string name="input_new">Új megadása</string>
@@ -369,9 +367,9 @@
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Fordított sorrend</string>
 
-    <string name="calendar_disp_name">Simpletask emlékeztetők</string>
-    <string name="calendar_sync_desc_due">Határidő-emlékeztető, automatikusan létrehozva Simpletaskkel</string>
-    <string name="calendar_sync_desc_thre">Aktiválás dátumáról emlékeztető, automatikusan létrehozva Simpletaskkel</string>
+    <string name="calendar_disp_name">Simpletask Revived emlékeztetők</string>
+    <string name="calendar_sync_desc_due">Határidő-emlékeztető, automatikusan létrehozva Simpletask Reviveddel</string>
+    <string name="calendar_sync_desc_thre">Aktiválás dátumáról emlékeztető, automatikusan létrehozva Simpletask Reviveddel</string>
     <string name="calendar_exists_warning">Figyelmeztetés: Már létezik naptár ilyen névvel, felülírás...</string>
     <string name="calendar_write_error">Hiba: Nem sikerült a naptárba írni</string>
 

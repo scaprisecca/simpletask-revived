@@ -1,7 +1,7 @@
 Intents
 =======
 
-Simpletask unterstützt einige Android-Intents, die von anderen Apps (z. B. Tasker) verwendet werden können, um Aufgaben zu erstellen oder Listen anzuzeigen.
+Simpletask Revived unterstützt einige Android-Intents, die von anderen Apps (z. B. Tasker) verwendet werden können, um Aufgaben zu erstellen oder Listen anzuzeigen.
 
 Neue Aufgabe im Hintergrund
 ---------------------------

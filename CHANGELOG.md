@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Rebranded the project as Simpletask Revived with distinct application IDs, fork-owned support links, updated in-app help, and repo-local F-Droid metadata scaffolding
+- Cleaned up remaining revived branding strings, removed stale community references from help content, and dropped outdated localized Dropbox login copy that still pointed at old distribution links
 
 ### Added
 - Pinned task notifications can now be scheduled for a specific date and time, survive reboot/app restore, and still resolve the right task even when it lives in another todo file

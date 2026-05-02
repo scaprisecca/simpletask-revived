@@ -283,7 +283,7 @@
     <string name="priority_format">(prio)</string>
     <string name="separator">Separador</string>
     <string name="shortcut_addtask_name">Inserir tarefa</string>
-    <string name="share_addtask_name">Adicionar no Simpletask</string>
+    <string name="share_addtask_name">Adicionar no Simpletask Revived</string>
     <string name="none">nenhum</string>
     <string name="keep">Manter</string>
     <string name="all">todos</string>
@@ -310,10 +310,10 @@
     <string name="no_header">Nenhum</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Incluir lembrete</string>
-    <string name="calendar_title">Lembrete do Simpletask</string>
-    <string name="share_title">Tarefa Simpletask</string>
+    <string name="calendar_title">Lembrete do Simpletask Revived</string>
+    <string name="share_title">Tarefa Simpletask Revived</string>
     <string name="version_copied">Informações de versão copiadas</string>
-    <string name="task_added">Tarefa adicionada ao Simpletask</string>
+    <string name="task_added">Tarefa adicionada ao Simpletask Revived</string>
     <string name="default_sort">Disposição padrão</string>
     <string name="pull_to_refresh_refreshing_label">Sincronizando com o Dropbox…</string>
     <string name="input_new">Inserir nova</string>
@@ -324,9 +324,9 @@
     <string name="filter_import_export">Importar/exportar filtros</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Organização reversa</string>
-    <string name="calendar_disp_name">Lembretes do Simpletask</string>
-    <string name="calendar_sync_desc_due">Lembrete de prazo, gerado automaticamente pelo Simpletask</string>
-    <string name="calendar_sync_desc_thre">Lembrete de data limiar, gerado automaticamente pelo Simpletask</string>
+    <string name="calendar_disp_name">Lembretes do Simpletask Revived</string>
+    <string name="calendar_sync_desc_due">Lembrete de prazo, gerado automaticamente pelo Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Lembrete de data limiar, gerado automaticamente pelo Simpletask Revived</string>
     <string name="calendar_exists_warning">Aviso: calendário com mesmo nome, sobrescrevendo…</string>
     <string name="calendar_write_error">Erro: impossível escrever na agenda</string>
     <string name="click_to_copy">Toque para copiar para a área de transferência.</string>

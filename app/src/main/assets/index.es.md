@@ -21,11 +21,11 @@ Simpletask soporta las siguientes extensiones de todo.txt:
 Soporte
 -------
 
-Simpletask es traducido utilizando [Weblate](https://hosted.weblate.org/engage/simpletask/). Siga el enlace para contribuir.
-
-Únase al chat en  [![Gitter](images/gitter.png)](https://gitter.im/mpcjanssen/simpletask-android?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge), IRC en [#simpletask](https://webchat.freenode.net/?channels=simpletask) en Freenode o Matrix en [#simpletask:matrix.org](https://matrix.to/#/#simpletask:matrix.org).
+Simpletask Revived todavía incluye el conjunto de traducciones existente del proyecto original. El flujo de traducción propio del fork se actualizará más adelante.
 
 Si quiere informar de un problema o pedir una característica nueva para [Simpletask Revived](https://github.com/scaprisecca/simpletask-android/) puede ir al [tracker](https://github.com/scaprisecca/simpletask-android/issues).
+
+Por ahora, el soporte del fork se gestiona desde el repositorio de GitHub y el tracker de incidencias.
 
 Vea el menú para encontrar más secciones de ayuda o haga clic abajo.
 

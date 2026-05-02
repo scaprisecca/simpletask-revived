@@ -10,11 +10,11 @@ See in [English](./index.en.md), Ver en [Español](./index.es.md)
 Support
 -------
 
-Simpletask wird mit [weblate](https://hosted.weblate.org/engage/simpletask/) übersetzt. Folgen Sie dem Link, um zur Übersetzung beizutragen.
-
-Folgen Sie dem Chat auf [![Gitter](images/gitter.png)](https://gitter.im/mpcjanssen/simpletask-android), IRC auf [#simpletask at Freenode](https://webchat.freenode.net/?channels=simpletask) oder Matrix auf [#simpletask:matrix.org](https://matrix.to/#/#simpletask:matrix.org).
+Simpletask Revived enthält derzeit noch den bestehenden Übersetzungssatz des ursprünglichen Projekts. Ein eigener Übersetzungsablauf für den Fork wird später eingerichtet.
 
 Probleme oder Verbesserungsvorschläge für [Simpletask Revived](https://github.com/scaprisecca/simpletask-android/) können Sie im [Tracker](https://github.com/scaprisecca/simpletask-android/issues) melden.
+
+Support für den Fork läuft vorerst über das GitHub-Repository und den Issue-Tracker.
 
 Inhalt
 -------

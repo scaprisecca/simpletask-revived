@@ -200,8 +200,8 @@
     <string name="calendar_exists_warning">Увага: Календар з такою назвою вже існує, перезаписування…</string>
     <string name="calendar_write_error">Помилка: не вдалося записати календар</string>
     <string name="click_to_copy">Натисніть, щоб скопіювати до буфера обміну.</string>
-    <string name="calendar_disp_name">Нагадування Simpletask</string>
-    <string name="calendar_sync_desc_thre">Нагадування про граничну дату, автоматично створене Simpletask</string>
+    <string name="calendar_disp_name">Нагадування Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Нагадування про граничну дату, автоматично створене Simpletask Revived</string>
     <string name="filter_import_export">Фільтри імпорту/експорту</string>
     <string name="nav_drawer_hint">Зберегти поточний фільтр
 \nкнопкою збереження</string>
@@ -226,8 +226,6 @@
     <string name="dropbox_open">Переконайтеся, що ви синхронізували всі зміни з Dropbox або надіслали увесь список завдань, якщо його не пов\'язано з Dropbox.
 \nУсі несинхронізовані зміни втратяться після відкриття іншого файлу.</string>
     <string name="sort_help">Перетягніть, щоб змінити порядок сортування. Натисніть на елементи, щоб змінити напрямок сортування.</string>
-    <string name="login_cloudless">Якщо у вас немає облікового запису Dropbox або ви не хочете застосовувати його для зберігання списку завдань, ви можете завантажити Simpletask Cloudless з Play Маркету.
-\nhttps://goo.gl/X1C55P</string>
     <string name="sync_conflict_dialog_msg">Йой! У Dropbox є новіша версія вашого файлу todo.txt.
 \nХочете вивантажити свої локальні зміни чи завантажити версію з Dropbox\?</string>
     <string name="idle_before_safe_title">Час до збереження</string>
@@ -271,8 +269,8 @@
     <string name="filter_show_completed">Показати виконані завдання</string>
     <string name="add_task_help_btn">Довідка</string>
     <string name="add_to_calendar">Додати нагадування</string>
-    <string name="calendar_title">Нагадування Simpletask</string>
-    <string name="share_title">Завдання Simpletask</string>
+    <string name="calendar_title">Нагадування Simpletask Revived</string>
+    <string name="share_title">Завдання Simpletask Revived</string>
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="hello_world">Привіт, Світе!</string>
     <string name="share_link">Поділитись посиланням</string>
@@ -287,7 +285,7 @@
     <string name="share_history_title">Журнал завдань</string>
     <string name="help_locale">uk</string>
     <string name="task_text_ellipsizing_middle">Посередині: Задовгий… текст</string>
-    <string name="link_added">Посилання додано до Simpletask</string>
+    <string name="link_added">Посилання додано до Simpletask Revived</string>
     <string name="idle_before_safe_summary">Час простою, після якого зберігатимуться зміни (у секундах)</string>
     <string name="no_tasks_to_archive">Немає завдань для архівування.</string>
     <string name="force_english_title">Англійська примусово</string>
@@ -306,10 +304,10 @@
     <string name="task_action">Дія</string>
     <string name="name">Назва</string>
     <string name="action_settings">Налаштування</string>
-    <string name="calendar_sync_desc_due">Нагадування про термін виконання, автоматично створене Simpletask</string>
+    <string name="calendar_sync_desc_due">Нагадування про термін виконання, автоматично створене Simpletask Revived</string>
     <string name="sort_reverse">Зворотне сортування</string>
     <string name="no_filter">Без фільтра</string>
-    <string name="task_added">Завдання додано до Simpletask</string>
+    <string name="task_added">Завдання додано до Simpletask Revived</string>
     <string name="no_header">Немає</string>
     <string name="no_project">Без мітки</string>
     <string name="dates_tomorrow">завтра</string>

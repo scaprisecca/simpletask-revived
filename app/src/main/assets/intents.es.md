@@ -1,7 +1,7 @@
 Intents
 =======
 
-Simpletask soporta un par de intents que pueden ser utilizados por otras aplicaciones (p. ej. Tasker) para crear tareas o mostrar listas.
+Simpletask Revived soporta un par de intents que pueden ser utilizados por otras aplicaciones (p. ej. Tasker) para crear tareas o mostrar listas.
 
 Crear tarea entre bastidores
 ----------------------------

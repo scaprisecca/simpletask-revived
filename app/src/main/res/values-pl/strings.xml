@@ -278,7 +278,7 @@ You should have received a copy of the GNU General Public License along with Tod
     <!-- launcher shortcut -->
     <string name="shortcut_addtask_name">Dodaj Zadanie</string>
     <!-- share -->
-    <string name="share_addtask_name">Dodaj do Simpletask</string>
+    <string name="share_addtask_name">Dodaj do Simpletask Revived</string>
     <string name="none">żaden</string>
     <!-- Relative Dates -->
     <string name="dates_days_ago">%d dni temu</string>
@@ -304,10 +304,10 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="no_header">Żaden</string>
     <string name="no_prio">-</string>
     <string name="add_to_calendar">Dodaj powiadomienie</string>
-    <string name="calendar_title">Powiadomienie Simpletask</string>
-    <string name="share_title">Zadanie Simpletask</string>
+    <string name="calendar_title">Powiadomienie Simpletask Revived</string>
+    <string name="share_title">Zadanie Simpletask Revived</string>
     <string name="version_copied">Informacja o wersji została skopiowana do schowka</string>
-    <string name="task_added">Zadanie dodane do Simpletask</string>
+    <string name="task_added">Zadanie dodane do Simpletask Revived</string>
     <string name="default_sort">Domyślne sortowanie</string>
     <string name="pull_to_refresh_refreshing_label">Synchronizacja z dropboxem…</string>
     <string name="input_new">Wprowadź nową</string>
@@ -318,9 +318,9 @@ You should have received a copy of the GNU General Public License along with Tod
     <string name="visit_donate_data">https://github.com/scaprisecca/simpletask-android</string>
     <string name="sort_reverse">Odwróć sortowanie</string>
     <!-- Calendar sync -->
-    <string name="calendar_disp_name">Powiadomienia Simpletask</string>
-    <string name="calendar_sync_desc_due">Przypomnienie terminu dla daty, wygenerowany automatycznie przez Simpletask</string>
-    <string name="calendar_sync_desc_thre">Przypomnienie progu dla daty, wygenerowany automatycznie przez Simpletask</string>
+    <string name="calendar_disp_name">Powiadomienia Simpletask Revived</string>
+    <string name="calendar_sync_desc_due">Przypomnienie terminu dla daty, wygenerowany automatycznie przez Simpletask Revived</string>
+    <string name="calendar_sync_desc_thre">Przypomnienie progu dla daty, wygenerowany automatycznie przez Simpletask Revived</string>
     <string name="calendar_exists_warning">Uwaga: Kalendarz z taką samą nazwą już istnieje, nadpisuję...</string>
     <string name="calendar_write_error">Błąd : Nie można zapisać kalendarza</string>
     <string name="click_to_copy">Kliknij i skopiuj do schowka.</string>
