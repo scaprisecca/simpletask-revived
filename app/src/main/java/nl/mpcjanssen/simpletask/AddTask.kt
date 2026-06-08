@@ -482,6 +482,15 @@ class AddTask : ThemedActionBarActivity() {
                     val showCalendar = TodoApplication.config.showCalendar
                     dialog.datePicker.calendarViewShown = showCalendar
                     dialog.datePicker.spinnersShown = !showCalendar
+                    dialog.setOnKeyListener { _, keyCode, event ->
+                        if (!DatePickerDialogKeys.shouldConsume(keyCode, event.action)) {
+                            return@setOnKeyListener false
+                        }
+                        if (DatePickerDialogKeys.shouldConfirm(keyCode, event.action)) {
+                            dialog.getButton(DialogInterface.BUTTON_POSITIVE)?.performClick()
+                        }
+                        true
+                    }
                     dialog.show()
                 } else {
                     if (!input.isEmpty()) {

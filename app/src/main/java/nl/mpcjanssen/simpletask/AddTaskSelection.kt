@@ -1,5 +1,7 @@
 package nl.mpcjanssen.simpletask
 
+import android.view.KeyEvent
+
 internal data class SelectionSnapshot(val start: Int, val end: Int) {
     val isValid: Boolean
         get() = start >= 0 && end >= 0
@@ -74,5 +76,16 @@ internal object AddTaskSelection {
         }
 
         return updatedText.length
+    }
+}
+
+internal object DatePickerDialogKeys {
+    fun shouldConsume(keyCode: Int, action: Int): Boolean {
+        return keyCode == KeyEvent.KEYCODE_ENTER &&
+                (action == KeyEvent.ACTION_DOWN || action == KeyEvent.ACTION_UP)
+    }
+
+    fun shouldConfirm(keyCode: Int, action: Int): Boolean {
+        return keyCode == KeyEvent.KEYCODE_ENTER && action == KeyEvent.ACTION_UP
     }
 }

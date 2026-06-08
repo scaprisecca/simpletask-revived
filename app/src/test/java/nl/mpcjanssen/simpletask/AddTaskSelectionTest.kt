@@ -1,5 +1,6 @@
 package nl.mpcjanssen.simpletask
 
+import android.view.KeyEvent
 import junit.framework.TestCase
 
 class AddTaskSelectionTest : TestCase() {
@@ -56,5 +57,20 @@ class AddTaskSelectionTest : TestCase() {
         tracker.remember(SelectionSnapshot(start = 22, end = 22))
 
         assertEquals(SelectionSnapshot(start = 22, end = 22), tracker.current())
+    }
+
+    fun testDatePickerConsumesEnterOnKeyDownAndKeyUp() {
+        assertTrue(DatePickerDialogKeys.shouldConsume(KeyEvent.KEYCODE_ENTER, KeyEvent.ACTION_DOWN))
+        assertTrue(DatePickerDialogKeys.shouldConsume(KeyEvent.KEYCODE_ENTER, KeyEvent.ACTION_UP))
+    }
+
+    fun testDatePickerConfirmsOnlyOnEnterKeyUp() {
+        assertFalse(DatePickerDialogKeys.shouldConfirm(KeyEvent.KEYCODE_ENTER, KeyEvent.ACTION_DOWN))
+        assertTrue(DatePickerDialogKeys.shouldConfirm(KeyEvent.KEYCODE_ENTER, KeyEvent.ACTION_UP))
+    }
+
+    fun testDatePickerIgnoresNonEnterKeys() {
+        assertFalse(DatePickerDialogKeys.shouldConsume(KeyEvent.KEYCODE_A, KeyEvent.ACTION_UP))
+        assertFalse(DatePickerDialogKeys.shouldConfirm(KeyEvent.KEYCODE_A, KeyEvent.ACTION_UP))
     }
 }
