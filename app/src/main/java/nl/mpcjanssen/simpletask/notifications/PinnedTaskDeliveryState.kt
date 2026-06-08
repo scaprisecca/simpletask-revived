@@ -78,6 +78,8 @@ fun PinnedTaskRecord.asPostedRecord(lastKnownText: String = taskText): PinnedTas
     return copy(
         taskText = lastKnownText,
         lastKnownText = lastKnownText,
+        triggerAtMillis = null,
+        triggerMode = PinnedTaskRecord.TRIGGER_MODE_IMMEDIATE,
         deliveryState = PinnedTaskDeliveryState.POSTED.name
     )
 }

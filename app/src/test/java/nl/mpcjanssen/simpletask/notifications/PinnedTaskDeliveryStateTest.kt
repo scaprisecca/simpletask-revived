@@ -28,7 +28,7 @@ class PinnedTaskDeliveryStateTest : TestCase() {
         assertTrue(record.shouldPostNow(nowMillis = 6_000L))
     }
 
-    fun testPostedRecordPreservesScheduledTriggerMetadata() {
+    fun testPostedRecordClearsScheduledTriggerMetadata() {
         val record = PinnedTaskRecord(
             taskKey = "task",
             todoFilePath = "/tmp/todo.txt",
@@ -37,8 +37,8 @@ class PinnedTaskDeliveryStateTest : TestCase() {
         ).asScheduledRecord(triggerAtMillis = 7_000L).asPostedRecord("Renew license")
 
         assertTrue(record.isPostedDelivery())
-        assertEquals(PinnedTaskRecord.TRIGGER_MODE_SCHEDULED, record.triggerMode)
-        assertEquals(7_000L, record.triggerAtMillis)
+        assertEquals(PinnedTaskRecord.TRIGGER_MODE_IMMEDIATE, record.triggerMode)
+        assertNull(record.triggerAtMillis)
     }
 
     fun testDisplayStateUsesScheduledMarkerOnlyForFuturePins() {

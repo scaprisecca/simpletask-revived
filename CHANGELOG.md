@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Close button in calendar view for returning to task list
 
 ### Fixed
+- Scheduled pinned task notifications now become normal posted pins after firing so completing them from the notification shade does not let scheduled trigger metadata resurrect the notification
 - Editing an existing task from the Add Task screen now re-matches the original task after list reloads, preventing edited tasks from being duplicated instead of replaced
 - Pinned task notifications now restore more reliably after reboot and app updates, expose a dedicated Unpin action, and reappear after swipe-away instead of silently unpinning
 - Pinned task notifications now survive app reloads and device reboot, stay in sync after task edits, and let you unpin or complete the correct task from the notification
