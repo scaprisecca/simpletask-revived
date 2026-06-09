@@ -35,6 +35,26 @@ class PinnedTaskFileEditTest : TestCase() {
         assertEquals("Review release notes", task!!.text)
     }
 
+    fun testFindTaskInFileLinesMatchesTaskWhenFileHasGeneratedUuid() {
+        val record = PinnedTaskRecord(
+            taskKey = PinnedTaskKey.from("/tmp/todo.txt", "QA pin now"),
+            todoFilePath = "/tmp/todo.txt",
+            taskText = "QA pin now",
+            createdAt = 1L
+        )
+
+        val task = findPinnedTaskInFileLines(
+            record,
+            listOf(
+                "QA pin later uuid:22222222-2222-2222-2222-222222222222",
+                "QA pin now uuid:11111111-1111-1111-1111-111111111111"
+            )
+        )
+
+        assertNotNull(task)
+        assertEquals("QA pin now uuid:11111111-1111-1111-1111-111111111111", task!!.text)
+    }
+
     fun testReplaceTaskInFileLinesUpdatesOnlyThePinnedTask() {
         val record = PinnedTaskRecord(
             taskKey = PinnedTaskKey.from("/tmp/todo.txt", "Review release notes"),
@@ -72,6 +92,38 @@ class PinnedTaskFileEditTest : TestCase() {
 
         assertNotNull(result)
         assertEquals(listOf("Plan sprint", "x 2026-06-09 Review release notes"), result!!.todoLines)
+        assertTrue(result.doneLines.isEmpty())
+    }
+
+    fun testCompletePinnedTaskInFileLinesMarksTaskCompleteWhenFileHasGeneratedUuid() {
+        val record = PinnedTaskRecord(
+            taskKey = PinnedTaskKey.from("/tmp/todo.txt", "QA pin now"),
+            todoFilePath = "/tmp/todo.txt",
+            taskText = "QA pin now",
+            createdAt = 1L
+        )
+
+        val result = completePinnedTaskInFileLines(
+            record = record,
+            fileLines = listOf(
+                "QA pin later uuid:22222222-2222-2222-2222-222222222222",
+                "QA pin now uuid:11111111-1111-1111-1111-111111111111"
+            ),
+            completedDate = "2026-06-09",
+            useUUIDs = true,
+            keepPriority = true,
+            appendAtEnd = true,
+            autoArchive = false
+        )
+
+        assertNotNull(result)
+        assertEquals(
+            listOf(
+                "QA pin later uuid:22222222-2222-2222-2222-222222222222",
+                "x 2026-06-09 QA pin now uuid:11111111-1111-1111-1111-111111111111"
+            ),
+            result!!.todoLines
+        )
         assertTrue(result.doneLines.isEmpty())
     }
 

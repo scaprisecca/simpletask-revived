@@ -2,6 +2,7 @@ package nl.mpcjanssen.simpletask.notifications
 
 import nl.mpcjanssen.simpletask.task.Priority
 import nl.mpcjanssen.simpletask.task.Task
+import nl.mpcjanssen.simpletask.task.UUIDToken
 
 data class PinnedTaskCompletionResult(
     val todoLines: List<String>,
@@ -12,7 +13,7 @@ fun findPinnedTask(taskKey: String, taskText: String, tasks: List<Task>): Task? 
     val occurrenceIndex = PinnedTaskKey.occurrenceIndex(taskKey)
     var currentIndex = 0
     tasks.forEach { task ->
-        if (!task.isCompleted() && task.text == taskText) {
+        if (!task.isCompleted() && task.matchesPinnedTaskText(taskText)) {
             if (currentIndex == occurrenceIndex) {
                 return task
             }
@@ -20,6 +21,19 @@ fun findPinnedTask(taskKey: String, taskText: String, tasks: List<Task>): Task? 
         }
     }
     return null
+}
+
+private fun Task.matchesPinnedTaskText(taskText: String): Boolean {
+    if (text == taskText) {
+        return true
+    }
+    return textWithoutUuid() == Task(taskText).textWithoutUuid()
+}
+
+private fun Task.textWithoutUuid(): String {
+    return tokens
+        .filterNot { it is UUIDToken }
+        .joinToString(" ") { it.text }
 }
 
 fun findPinnedTask(record: PinnedTaskRecord, tasks: List<Task>): Task? {
