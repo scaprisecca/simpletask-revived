@@ -26,6 +26,15 @@ class TodoListEditMatcherTest : TestCase() {
         assertEquals(1, TodoListEditMatcher.findEditableTaskIndex(tasks, original))
     }
 
+    fun testFindsReloadedTaskWhenEditPrefillGeneratedUuidNotYetSaved() {
+        val original = Task("Call plumber @home +house")
+        original.inFileFormat(useUUIDs = true)
+        val reloaded = Task("Call plumber @home +house")
+        val tasks = listOf(Task("Other task"), reloaded)
+
+        assertEquals(1, TodoListEditMatcher.findEditableTaskIndex(tasks, original))
+    }
+
     fun testReturnsMinusOneWhenTaskCannotBeMatched() {
         val original = Task("Call plumber @home +house")
         val tasks = listOf(Task("Other task"), Task("Different task"))

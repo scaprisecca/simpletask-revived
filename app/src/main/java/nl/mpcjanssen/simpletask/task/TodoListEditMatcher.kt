@@ -15,6 +15,19 @@ internal object TodoListEditMatcher {
             }
         }
 
-        return todoItems.indexOfFirst { it.text == original.text }
+        val originalText = original.text
+        val byExactText = todoItems.indexOfFirst { it.text == originalText }
+        if (byExactText != -1) {
+            return byExactText
+        }
+
+        val originalTextWithoutUuid = textWithoutUuid(original)
+        return todoItems.indexOfFirst { textWithoutUuid(it) == originalTextWithoutUuid }
+    }
+
+    private fun textWithoutUuid(task: Task): String {
+        return task.tokens
+            .filterNot { it is UUIDToken }
+            .joinToString(" ") { it.text }
     }
 }
