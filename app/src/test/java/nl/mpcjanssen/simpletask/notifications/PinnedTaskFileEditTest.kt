@@ -51,4 +51,71 @@ class PinnedTaskFileEditTest : TestCase() {
 
         assertEquals(listOf("Plan sprint", "Review release notes +release"), updatedLines)
     }
+
+    fun testCompletePinnedTaskInFileLinesMarksTaskComplete() {
+        val record = PinnedTaskRecord(
+            taskKey = PinnedTaskKey.from("/tmp/todo.txt", "Review release notes"),
+            todoFilePath = "/tmp/todo.txt",
+            taskText = "Review release notes",
+            createdAt = 1L
+        )
+
+        val result = completePinnedTaskInFileLines(
+            record = record,
+            fileLines = listOf("Plan sprint", "Review release notes"),
+            completedDate = "2026-06-09",
+            useUUIDs = false,
+            keepPriority = true,
+            appendAtEnd = true,
+            autoArchive = false
+        )
+
+        assertNotNull(result)
+        assertEquals(listOf("Plan sprint", "x 2026-06-09 Review release notes"), result!!.todoLines)
+        assertTrue(result.doneLines.isEmpty())
+    }
+
+    fun testCompletePinnedTaskInFileLinesReturnsNullWhenTaskMissing() {
+        val record = PinnedTaskRecord(
+            taskKey = PinnedTaskKey.from("/tmp/todo.txt", "Missing task"),
+            todoFilePath = "/tmp/todo.txt",
+            taskText = "Missing task",
+            createdAt = 1L
+        )
+
+        val result = completePinnedTaskInFileLines(
+            record = record,
+            fileLines = listOf("Plan sprint", "Review release notes"),
+            completedDate = "2026-06-09",
+            useUUIDs = false,
+            keepPriority = true,
+            appendAtEnd = true,
+            autoArchive = false
+        )
+
+        assertNull(result)
+    }
+
+    fun testCompletePinnedTaskInFileLinesArchivesWhenAutoArchiveEnabled() {
+        val record = PinnedTaskRecord(
+            taskKey = PinnedTaskKey.from("/tmp/todo.txt", "Review release notes"),
+            todoFilePath = "/tmp/todo.txt",
+            taskText = "Review release notes",
+            createdAt = 1L
+        )
+
+        val result = completePinnedTaskInFileLines(
+            record = record,
+            fileLines = listOf("Plan sprint", "Review release notes"),
+            completedDate = "2026-06-09",
+            useUUIDs = false,
+            keepPriority = true,
+            appendAtEnd = true,
+            autoArchive = true
+        )
+
+        assertNotNull(result)
+        assertEquals(listOf("Plan sprint"), result!!.todoLines)
+        assertEquals(listOf("x 2026-06-09 Review release notes"), result.doneLines)
+    }
 }

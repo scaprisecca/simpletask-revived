@@ -13,7 +13,6 @@ import nl.mpcjanssen.simpletask.R
 import nl.mpcjanssen.simpletask.TodoApplication
 import nl.mpcjanssen.simpletask.UnpinTaskNotification
 import nl.mpcjanssen.simpletask.remote.FileStore
-import nl.mpcjanssen.simpletask.task.Priority
 import nl.mpcjanssen.simpletask.task.Task
 import nl.mpcjanssen.simpletask.util.broadcastPinnedTasksChanged
 import nl.mpcjanssen.simpletask.util.broadcastRefreshWidgets
@@ -308,34 +307,20 @@ class PinnedTaskNotificationManager(private val context: Context) {
 
     private fun completeTaskInExternalFile(record: PinnedTaskRecord): Boolean {
         val todoFile = File(record.todoFilePath)
-        val tasks = FileStore.loadTasksFromFile(todoFile).map(::Task).toMutableList()
-        val targetTask = findPinnedTask(record, tasks) ?: return false
-        val taskIndex = tasks.indexOf(targetTask)
-        if (taskIndex == -1) {
-            return false
-        }
+        val completionResult = completePinnedTaskInFileLines(
+            record = record,
+            fileLines = FileStore.loadTasksFromFile(todoFile),
+            completedDate = todayAsString,
+            useUUIDs = TodoApplication.config.useUUIDs,
+            keepPriority = TodoApplication.config.hasKeepPrio,
+            appendAtEnd = TodoApplication.config.hasAppendAtEnd,
+            autoArchive = TodoApplication.config.isAutoArchive
+        ) ?: return false
 
-        val task = tasks[taskIndex]
-        val extra = task.markComplete(todayAsString)
-        if (!TodoApplication.config.hasKeepPrio) {
-            task.priority = Priority.NONE
+        if (completionResult.doneLines.isNotEmpty()) {
+            FileStore.appendTaskToFile(doneFileFor(todoFile), completionResult.doneLines, TodoApplication.config.eol)
         }
-
-        if (TodoApplication.config.isAutoArchive) {
-            FileStore.appendTaskToFile(doneFileFor(todoFile), listOf(task.inFileFormat(TodoApplication.config.useUUIDs)), TodoApplication.config.eol)
-            tasks.removeAt(taskIndex)
-        } else {
-            tasks[taskIndex] = task
-        }
-
-        extra?.let {
-            if (TodoApplication.config.hasAppendAtEnd) {
-                tasks.add(it)
-            } else {
-                tasks.add(0, it)
-            }
-        }
-        FileStore.saveTasksToFile(todoFile, tasks.map { it.inFileFormat(TodoApplication.config.useUUIDs) }, TodoApplication.config.eol)
+        FileStore.saveTasksToFile(todoFile, completionResult.todoLines, TodoApplication.config.eol)
         reloadActiveListIfNeeded(todoFile)
         return true
     }
@@ -343,6 +328,11 @@ class PinnedTaskNotificationManager(private val context: Context) {
     private fun reloadActiveListIfNeeded(todoFile: File) {
         val loadedPath = TodoApplication.app.loadedTodoFilePath ?: return
         if (PinnedTaskTaskResolver.canonicalPath(todoFile) == loadedPath) {
+            // Completing from a notification writes the file directly, outside TodoList.save().
+            // FileStore.saveTasksToFile() updates the last-seen file version, so a normal reload
+            // can take the "remote version is same" branch and restore the stale cached list.
+            // Drop that cache first so the UI reload comes from the file we just wrote.
+            TodoApplication.config.todoList = null
             TodoApplication.app.loadTodoList("after pinned notification complete", todoFile)
         }
     }

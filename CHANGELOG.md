@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Close button in calendar view for returning to task list
 
 ### Fixed
+- Completing a pinned task notification now clears the stale cached active list before reloading, so the visible task list reflects the completed task instead of only removing the pin
 - Opening the Add Task due/threshold date flow now hides the keyboard and clears editor focus so pressing Enter in the date picker cannot insert a newline into the task editor
 - Completing a scheduled pinned task notification now resolves the task from its source todo file instead of stale active UI state, so the task is marked complete before the pinned notification is removed
 - Editing an existing task from the Add Task screen now re-matches the original task after list reloads, preventing edited tasks from being duplicated instead of replaced
