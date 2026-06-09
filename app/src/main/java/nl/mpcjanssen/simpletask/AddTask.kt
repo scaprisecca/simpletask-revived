@@ -17,6 +17,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.Window
 import android.view.WindowManager
+import android.view.inputmethod.InputMethodManager
 import hirondelle.date4j.DateTime
 import nl.mpcjanssen.simpletask.databinding.AddTaskBinding
 import nl.mpcjanssen.simpletask.notifications.findPinnedTask
@@ -453,6 +454,7 @@ class AddTask : ThemedActionBarActivity() {
     }
 
     private fun insertDate(dateType: DateType) {
+        hideTaskEditorKeyboard()
         var titleId = R.string.defer_due
         if (dateType === DateType.THRESHOLD) {
             titleId = R.string.defer_threshold
@@ -471,6 +473,7 @@ class AddTask : ThemedActionBarActivity() {
                      * issue. The date is just replaced twice
                      */
                     val today = DateTime.today(TimeZone.getDefault())
+                    hideTaskEditorKeyboard()
                     val dialog = DatePickerDialog(this@AddTask, DatePickerDialog.OnDateSetListener { _, year, month, day ->
                         val date = DateTime.forDateOnly(year, month + 1, day)
                         insertDateAtSelection(dateType, date)
@@ -478,6 +481,7 @@ class AddTask : ThemedActionBarActivity() {
                             today.year!!,
                             today.month!! - 1,
                             today.day!!)
+                    dialog.window?.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN)
 
                     val showCalendar = TodoApplication.config.showCalendar
                     dialog.datePicker.calendarViewShown = showCalendar
@@ -502,6 +506,12 @@ class AddTask : ThemedActionBarActivity() {
             }
         })
         d.show()
+    }
+
+    private fun hideTaskEditorKeyboard() {
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(binding.taskText.windowToken, 0)
+        binding.taskText.clearFocus()
     }
 
     private fun replaceDate(dateType: DateType, date: String) {

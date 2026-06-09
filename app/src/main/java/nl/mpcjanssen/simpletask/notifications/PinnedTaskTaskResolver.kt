@@ -34,6 +34,10 @@ class PinnedTaskTaskResolver(
         )
     }
 
+    fun resolveForNotificationCompletion(record: PinnedTaskRecord): PinnedTaskResolution? {
+        return resolve(record, preferActiveTodoList = false)
+    }
+
     companion object {
         fun findTask(record: PinnedTaskRecord, tasks: List<Task>, todoFilePath: String): Task? {
             return findPinnedTask(record, tasks)

@@ -167,23 +167,17 @@ class PinnedTaskNotificationManager(private val context: Context) {
         val dao = TodoApplication.db.pinnedTaskRecordDao()
         val record = dao.get(taskKey) ?: return false
         val resolution = try {
-            resolveRecord(record)
+            taskResolver.resolveForNotificationCompletion(record)
         } catch (e: Exception) {
             Log.w(TAG, "Unable to complete pinned task $taskKey", e)
             return false
         }
         if (resolution == null) {
-            dao.deleteByTaskKey(taskKey)
-            refreshPinnedTaskKeysAndNotify()
-            cancelAlarmAndNotification(record)
+            Log.w(TAG, "Unable to resolve pinned task $taskKey for completion")
             return false
         }
 
-        val completed = if (resolution.usesActiveTodoFile) {
-            completeTaskInActiveTodoList(record, resolution.task)
-        } else {
-            completeTaskInExternalFile(record)
-        }
+        val completed = completeTaskInExternalFile(record)
         if (!completed) {
             return false
         }
@@ -312,25 +306,6 @@ class PinnedTaskNotificationManager(private val context: Context) {
         }
     }
 
-    private fun completeTaskInActiveTodoList(record: PinnedTaskRecord, task: Task): Boolean {
-        TodoApplication.todoList.complete(
-            listOf(task),
-            TodoApplication.config.hasKeepPrio,
-            TodoApplication.config.hasAppendAtEnd
-        )
-        if (TodoApplication.config.isAutoArchive) {
-            TodoApplication.todoList.archive(
-                TodoApplication.config.todoFile,
-                TodoApplication.config.doneFile,
-                listOf(task),
-                TodoApplication.config.eol
-            )
-        } else {
-            TodoApplication.todoList.notifyTasklistChanged(TodoApplication.config.todoFile, save = true)
-        }
-        return true
-    }
-
     private fun completeTaskInExternalFile(record: PinnedTaskRecord): Boolean {
         val todoFile = File(record.todoFilePath)
         val tasks = FileStore.loadTasksFromFile(todoFile).map(::Task).toMutableList()
@@ -361,7 +336,15 @@ class PinnedTaskNotificationManager(private val context: Context) {
             }
         }
         FileStore.saveTasksToFile(todoFile, tasks.map { it.inFileFormat(TodoApplication.config.useUUIDs) }, TodoApplication.config.eol)
+        reloadActiveListIfNeeded(todoFile)
         return true
+    }
+
+    private fun reloadActiveListIfNeeded(todoFile: File) {
+        val loadedPath = TodoApplication.app.loadedTodoFilePath ?: return
+        if (PinnedTaskTaskResolver.canonicalPath(todoFile) == loadedPath) {
+            TodoApplication.app.loadTodoList("after pinned notification complete", todoFile)
+        }
     }
 
     private fun doneFileFor(todoFile: File): File {

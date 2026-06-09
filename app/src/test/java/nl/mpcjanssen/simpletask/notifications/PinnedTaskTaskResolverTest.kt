@@ -101,6 +101,26 @@ class PinnedTaskTaskResolverTest : TestCase() {
         assertEquals("Correct task", resolution.task.text)
     }
 
+    fun testResolveForNotificationCompletionLoadsFileEvenWhenActivePathMatches() {
+        val record = PinnedTaskRecord(
+            taskKey = PinnedTaskKey.from("/tmp/todo.txt", "Correct task"),
+            todoFilePath = "/tmp/todo.txt",
+            taskText = "Correct task",
+            createdAt = 1L
+        )
+        val resolver = PinnedTaskTaskResolver(
+            activeTodoFileProvider = { File("/tmp/todo.txt") },
+            activeTasksProvider = { listOf(Task("Stale cached task")) },
+            loadTasksFromFile = { listOf("Correct task") }
+        )
+
+        val resolution = resolver.resolveForNotificationCompletion(record)
+
+        assertNotNull(resolution)
+        assertFalse(resolution!!.usesActiveTodoFile)
+        assertEquals("Correct task", resolution.task.text)
+    }
+
     fun testResolveReturnsMatchingDuplicateFromExternalFileByOccurrenceIndex() {
         val record = PinnedTaskRecord(
             taskKey = PinnedTaskKey.from("/tmp/other.txt", "Buy batteries", occurrenceIndex = 1),

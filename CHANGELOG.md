@@ -25,8 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Close button in calendar view for returning to task list
 
 ### Fixed
-- Pressing Enter while the Add Task due/threshold date picker is open now confirms the selected date instead of inserting a newline into the task editor
-- Scheduled pinned task notifications now become normal posted pins after firing so completing them from the notification shade does not let scheduled trigger metadata resurrect the notification
+- Opening the Add Task due/threshold date flow now hides the keyboard and clears editor focus so pressing Enter in the date picker cannot insert a newline into the task editor
+- Completing a scheduled pinned task notification now resolves the task from its source todo file instead of stale active UI state, so the task is marked complete before the pinned notification is removed
 - Editing an existing task from the Add Task screen now re-matches the original task after list reloads, preventing edited tasks from being duplicated instead of replaced
 - Pinned task notifications now restore more reliably after reboot and app updates, expose a dedicated Unpin action, and reappear after swipe-away instead of silently unpinning
 - Pinned task notifications now survive app reloads and device reboot, stay in sync after task edits, and let you unpin or complete the correct task from the notification
